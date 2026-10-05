@@ -40,7 +40,6 @@ A arquitetura foi projetada para resolver problemas complexos do ecossistema cor
 * **Backend Services:** Java 17 / 21, Spring Boot 3.x, Spring Data JPA, Spring Cache
 * **Database & Storage:** PostgreSQL
 * **Containerization:** Docker & Docker Compose
-* **Repository & Layouts:** [Design de Layouts - GitHub](https://github.com/kyosho-dev/Desingn-de-Layouts)
 
 ---
 
