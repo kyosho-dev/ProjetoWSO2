@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><api xmlns="http://ws.apache.org/ns/synapse" name="RelatorioFrotaAPI" context="/parseRelatorioFrota">
+    <resource methods="GET" uri-template="/gerar">
+        <inSequence>
+            <log level="custom">
+                <property name="Status" value="Iniciando busca do Relatorio no backend interno"/>
+            </log>
+            <call>
+                <endpoint name="EndpointAplicaçãoDireta">
+                    <http method="GET" uri-template="http://relatorio-legacy-api:8080/v3/relatorios/frota/xml"/>
+                </endpoint>
+            </call>
+            <!-- Armazena o Header do XML em propriedades para montar a resposta global -->
+            <property name="empresa" expression="//RelatorioConsolidado/Header/Empresa/text()" scope="default"/>
+            <property name="totalRegistros" expression="//RelatorioConsolidado/Header/TotalRegistros/text()" scope="default"/>
+            <property name="dataGeracao" expression="//RelatorioConsolidado/Header/DataGeracao/text()" scope="default"/>
+            <!-- Transforma a lista de registros via Script Mediator (JavaScript) -->
+            <script language="js">var xmlResponse = mc.getPayloadXML();
+                var registros = xmlResponse..Registro;
+                var lista = [];
+
+                for (var i = 0; i &lt; registros.length(); i++) {
+                    var reg = registros[i];
+                    lista.push({
+                        "id": reg.Id.toString(),
+                        "placaVeiculo": reg.PlacaVeiculo.toString(),
+                        "quilometragem": parseFloat(reg.Quilometrajem.toString()),
+                        "statusFrota": reg.StatusFrota.toString(),
+                        "ultimaManutencao": reg.UltimaManutencao.toString()
+                    });
+                }
+
+                var jsonResponse = {
+                    "relatorioConsolidado": {
+                        "header": {
+                            "empresa": mc.getProperty("empresa"),
+                            "totalRegistros": parseInt(mc.getProperty("totalRegistros")),
+                            "dataGeracao": mc.getProperty("dataGeracao")
+                        },
+                        "listaRegistros": lista
+                    }
+                };
+
+                mc.setPayloadJSON(jsonResponse);</script>
+            <property name="Access-Control-Allow-Origin" value="*" scope="transport"/>
+            <property name="messageType" value="application/json" scope="axis2" type="STRING"/>
+            <property name="ContentType" value="application/json" scope="axis2" type="STRING"/>
+            <respond/>
+        </inSequence>
+        <faultSequence>
+            <log level="full">
+                <property name="MESSAGE" value="Erro ao processar o relatorio de frota"/>
+            </log>
+            <payloadFactory media-type="json">
+                <format>
+                    {
+                        "erro": "Falha na comunicacao com o serviço backend de relatorios.",
+                        "codigo": "$1"
+                    }
+                </format>
+                <args>
+                    <arg evaluator="xml" expression="get-property('ERROR_CODE')"/>
+                </args>
+            </payloadFactory>
+            <property name="Access-Control-Allow-Origin" value="*" scope="transport"/>
+            <property name="HTTP_SC" value="500" scope="axis2"/>
+            <property name="messageType" value="application/json" scope="axis2" type="STRING"/>
+            <respond/>
+        </faultSequence>
+    </resource>
+</api>

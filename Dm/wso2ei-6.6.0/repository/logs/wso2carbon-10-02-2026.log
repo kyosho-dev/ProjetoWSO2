@@ -1,0 +1,90 @@
+TID: [-1234] [] [2026-10-02 17:02:14,190]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [-1234] [] [2026-10-02 17:02:14,206]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Windows 10 10.0, amd64
+TID: [-1234] [] [2026-10-02 17:02:14,208]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : C:\Program Files\Java\jdk-27
+TID: [-1234] [] [2026-10-02 17:02:14,209]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 27
+TID: [-1234] [] [2026-10-02 17:02:14,209]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : Java HotSpot(TM) 64-Bit Server VM 27+35-2325,Oracle Corporation
+TID: [-1234] [] [2026-10-02 17:02:14,210]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : C:\Users\gabri\Desktop\ENTREV~1\Dm\WSO2EI~1.0\bin\..
+TID: [-1234] [] [2026-10-02 17:02:14,210]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : C:\Users\gabri\Desktop\ENTREV~1\Dm\WSO2EI~1.0\bin\..\wso2\tmp
+TID: [-1234] [] [2026-10-02 17:02:14,210]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : gabri, en-US, America/Sao_Paulo
+TID: [-1] [] [2026-10-02 17:02:14,350]  INFO {org.wso2.carbon.crypto.provider.internal.DefaultCryptoProviderComponent} - 'CryptoService.Secret' property has not been set. 'org.wso2.carbon.crypto.provider.SymmetricKeyInternalCryptoProvider' won't be registered as an internal crypto provider. Please set the secret if the provider needs to be registered.
+TID: [-1] [] [2026-10-02 17:02:14,360]  INFO {org.wso2.carbon.dataservices.google.tokengen.servlet.internal.GoogleTokenGenDSComponent} - Activating GoogleTokengen DS component
+TID: [-1] [] [2026-10-02 17:02:14,469]  INFO {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS} - Successfully deployed the Kafka output event adaptor service
+TID: [-1234] [] [2026-10-02 17:02:16,648]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 35ms
+TID: [-1234] [] [2026-10-02 17:02:16,687]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [-1234] [] [2026-10-02 20:05:41,365]  INFO {org.wso2.carbon.core.services.util.CarbonAuthenticationUtil} - 'admin@carbon.super [-1234]' logged in at [2026-10-02 20:05:41,360+0000]
+TID: [-1234] [] [2026-10-02 21:10:40,504]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Starting WSO2 Carbon...
+TID: [-1234] [] [2026-10-02 21:10:40,520]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Operating System : Linux 5.15.167.4-microsoft-standard-WSL2, amd64
+TID: [-1234] [] [2026-10-02 21:10:40,521]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Home        : /opt/java/openjdk
+TID: [-1234] [] [2026-10-02 21:10:40,521]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Version     : 11.0.5
+TID: [-1234] [] [2026-10-02 21:10:40,522]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java VM          : OpenJDK 64-Bit Server VM 11.0.5+10,AdoptOpenJDK
+TID: [-1234] [] [2026-10-02 21:10:40,522]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Carbon Home      : /home/wso2carbon/wso2ei-6.6.0
+TID: [-1234] [] [2026-10-02 21:10:40,522]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - Java Temp Dir    : /home/wso2carbon/wso2ei-6.6.0/wso2/tmp
+TID: [-1234] [] [2026-10-02 21:10:40,523]  INFO {org.wso2.carbon.core.internal.CarbonCoreActivator} - User             : wso2carbon, en-US, GMT
+TID: [-1] [] [2026-10-02 21:10:40,733]  INFO {org.wso2.carbon.crypto.provider.internal.DefaultCryptoProviderComponent} - 'CryptoService.Secret' property has not been set. 'org.wso2.carbon.crypto.provider.SymmetricKeyInternalCryptoProvider' won't be registered as an internal crypto provider. Please set the secret if the provider needs to be registered.
+TID: [-1] [] [2026-10-02 21:10:40,806]  INFO {org.wso2.carbon.dataservices.google.tokengen.servlet.internal.GoogleTokenGenDSComponent} - Activating GoogleTokengen DS component
+TID: [-1] [] [2026-10-02 21:10:41,021]  INFO {org.wso2.carbon.event.output.adapter.kafka.internal.ds.KafkaEventAdapterServiceDS} - Successfully deployed the Kafka output event adaptor service
+TID: [-1234] [] [2026-10-02 21:10:52,342]  INFO {org.wso2.carbon.registry.core.jdbc.EmbeddedRegistryService} - Configured Registry in 86ms
+TID: [-1234] [] [2026-10-02 21:10:52,398]  INFO {org.wso2.carbon.registry.core.internal.RegistryCoreServiceComponent} - Registry Mode    : READ-WRITE
+TID: [-1234] [] [2026-10-02 21:10:55,127]  INFO {org.wso2.carbon.registry.indexing.solr.SolrClient} - Default Embedded Solr Server Initialized
+TID: [-1234] [] [2026-10-02 21:10:55,449]  INFO {org.wso2.carbon.user.core.internal.UserStoreMgtDSComponent} - Carbon UserStoreMgtDSComponent activated successfully.
+TID: [-1234] [] [2026-10-02 21:11:07,447]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [-1234] [] [2026-10-02 21:11:07,447]  INFO {org.wso2.carbon.identity.user.store.configuration.deployer.UserStoreConfigurationDeployer} - User Store Configuration Deployer initiated.
+TID: [-1234] [] [2026-10-02 21:11:08,511]  INFO {org.apache.synapse.transport.vfs.VFSTransportSender} - VFS Sender started
+TID: [-1234] [] [2026-10-02 21:11:08,573]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} - Initializing Pass-through HTTP/S Sender...
+TID: [-1234] [] [2026-10-02 21:11:08,653]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSender} - Pass-through HTTP Sender started...
+TID: [-1234] [] [2026-10-02 21:11:08,654]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} - Initializing Pass-through HTTP/S Sender...
+TID: [-1234] [] [2026-10-02 21:11:08,678]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLSender} - Pass-through HTTPS Sender started...
+TID: [-1234] [] [2026-10-02 21:11:08,722]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} - Initializing Pass-through HTTP/S Listener...
+TID: [-1234] [] [2026-10-02 21:11:08,773]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} - Initializing Pass-through HTTP/S Listener...
+TID: [-1234] [wso2carbon-sts] [2026-10-02 21:11:14,524]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: wso2carbon-sts {super-tenant}
+TID: [-1234] [] [2026-10-02 21:11:15,336]  INFO {org.wso2.carbon.core.init.CarbonServerManager} - Repository       : /home/wso2carbon/wso2ei-6.6.0/repository/deployment/server/
+TID: [-1234] [] [2026-10-02 21:11:15,473]  INFO {org.wso2.carbon.core.multitenancy.eager.TenantLoadingConfig} - Using tenant lazy loading policy...
+TID: [-1234] [] [2026-10-02 21:11:15,482]  INFO {org.wso2.carbon.core.internal.permission.update.PermissionUpdater} - Permission cache updated for tenant -1234
+TID: [-1234] [] [2026-10-02 21:11:15,612]  INFO {org.wso2.carbon.rule.kernel.internal.ds.RuleEngineConfigDS} - Successfully registered the Rule Config service
+TID: [-1234] [] [2026-10-02 21:11:17,134]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} - Starting ESB...
+TID: [-1234] [] [2026-10-02 21:11:17,152]  INFO {org.wso2.carbon.mediation.initializer.ServiceBusInitializer} - Initializing Apache Synapse...
+TID: [-1234] [] [2026-10-02 21:11:17,157]  INFO {org.apache.synapse.SynapseControllerFactory} - Using Synapse home : /home/wso2carbon/wso2ei-6.6.0/.
+TID: [-1234] [] [2026-10-02 21:11:17,159]  INFO {org.apache.synapse.SynapseControllerFactory} - Using synapse.xml location : /home/wso2carbon/wso2ei-6.6.0/././repository/deployment/server/synapse-configs/default
+TID: [-1234] [] [2026-10-02 21:11:17,159]  INFO {org.apache.synapse.SynapseControllerFactory} - Using server name : localhost
+TID: [-1234] [] [2026-10-02 21:11:17,164]  INFO {org.apache.synapse.SynapseControllerFactory} - The timeout handler will run every : 15s
+TID: [-1234] [] [2026-10-02 21:11:17,204]  INFO {org.apache.synapse.Axis2SynapseController} - Initializing Synapse at : Fri Oct 02 21:11:17 GMT 2026
+TID: [-1234] [] [2026-10-02 21:11:17,215]  INFO {org.wso2.carbon.mediation.initializer.CarbonSynapseController} - Loading the mediation configuration from the file system
+TID: [-1234] [] [2026-10-02 21:11:17,221]  INFO {org.apache.synapse.config.xml.MultiXMLConfigurationBuilder} - Building synapse configuration from the synapse artifact repository at : ././repository/deployment/server/synapse-configs/default
+TID: [-1234] [] [2026-10-02 21:11:17,245]  INFO {org.apache.synapse.config.xml.XMLConfigurationBuilder} - Generating the Synapse configuration model by parsing the XML configuration
+TID: [-1234] [] [2026-10-02 21:11:17,444]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : fault was added to the Synapse configuration successfully
+TID: [-1234] [] [2026-10-02 21:11:17,466]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Sequence : main was added to the Synapse configuration successfully
+TID: [-1234] [] [2026-10-02 21:11:17,530]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - API : teste was added to the Synapse configuration successfully
+TID: [-1234] [] [2026-10-02 21:11:17,546]  INFO {org.apache.synapse.config.SynapseConfigurationBuilder} - Loaded Synapse configuration from the artifact repository at : ././repository/deployment/server/synapse-configs/default
+TID: [-1234] [] [2026-10-02 21:11:17,548]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : SERVER_HOST was added to the Synapse configuration successfully
+TID: [-1234] [] [2026-10-02 21:11:17,548]  INFO {org.wso2.carbon.mediation.dependency.mgt.DependencyTracker} - Local entry : SERVER_IP was added to the Synapse configuration successfully
+TID: [-1234] [] [2026-10-02 21:11:17,608]  INFO {org.apache.synapse.Axis2SynapseController} - Loading mediator extensions...
+TID: [-1234] [echo] [2026-10-02 21:11:18,237]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: echo {super-tenant}
+TID: [-1234] [Version] [2026-10-02 21:11:18,326]  INFO {org.wso2.carbon.core.deployment.DeploymentInterceptor} - Deploying Axis2 service: Version {super-tenant}
+TID: [-1234] [] [2026-10-02 21:11:18,343]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :MessageFlowConfigurationPublisher.xml, Stream validation exception : Stream org.wso2.esb.analytics.stream.ConfigEntry:1.0.0 does not exist
+TID: [-1234] [] [2026-10-02 21:11:18,356]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher deployment held back and in inactive state :MessageFlowStatisticsPublisher.xml, Stream validation exception : Stream org.wso2.esb.analytics.stream.FlowEntry:1.0.0 does not exist
+TID: [-1234] [] [2026-10-02 21:11:18,428]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : MessageFlowConfigurationPublisher.xml
+TID: [-1234] [] [2026-10-02 21:11:18,496]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.esb.analytics.stream.ConfigEntry:1.0.0
+TID: [-1234] [] [2026-10-02 21:11:18,501]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : MessageFlowConfigurationPublisher
+TID: [-1234] [] [2026-10-02 21:11:18,502]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.esb.analytics.stream.ConfigEntry:1.0.0
+TID: [-1234] [] [2026-10-02 21:11:18,511]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher undeployed successfully : MessageFlowStatisticsPublisher.xml
+TID: [-1234] [] [2026-10-02 21:11:18,529]  INFO {org.wso2.carbon.event.stream.core.internal.EventJunction} - WSO2EventConsumer added to the junction. Stream:org.wso2.esb.analytics.stream.FlowEntry:1.0.0
+TID: [-1234] [] [2026-10-02 21:11:18,530]  INFO {org.wso2.carbon.event.publisher.core.EventPublisherDeployer} - Event Publisher configuration successfully deployed and in active state : MessageFlowStatisticsPublisher
+TID: [-1234] [] [2026-10-02 21:11:18,530]  INFO {org.wso2.carbon.event.stream.core.EventStreamDeployer} - Stream definition is deployed successfully  : org.wso2.esb.analytics.stream.FlowEntry:1.0.0
+TID: [-1234] [odata] [2026-10-02 21:11:28,570]  INFO {org.wso2.carbon.webapp.mgt.TomcatGenericWebappsDeployer} - Deployed webapp: StandardEngine[Catalina].StandardHost[localhost].StandardContext[/odata].File[/home/wso2carbon/wso2ei-6.6.0/repository/deployment/server/webapps/odata.war]
+TID: [-1234] [] [2026-10-02 21:11:28,590]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying the Synapse service...
+TID: [-1234] [] [2026-10-02 21:11:28,592]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying Proxy services...
+TID: [-1234] [] [2026-10-02 21:11:28,592]  INFO {org.apache.synapse.Axis2SynapseController} - Deploying EventSources...
+TID: [-1234] [] [2026-10-02 21:11:28,624]  INFO {org.apache.synapse.rest.API} - Initializing API: teste
+TID: [-1234] [] [2026-10-02 21:11:28,625]  INFO {org.apache.synapse.ServerManager} - Server ready for processing...
+TID: [-1234] [] [2026-10-02 21:11:28,664]  INFO {org.wso2.carbon.das.messageflow.data.publisher.internal.MediationStatisticsComponent} - Global Message-Flow Statistic Reporting is Disabled
+TID: [-1234] [] [2026-10-02 21:11:30,627]  INFO {org.apache.synapse.transport.vfs.VFSTransportListener} - VFS listener started
+TID: [-1234] [] [2026-10-02 21:11:30,629]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpListener} - Starting Pass-through HTTP Listener...
+TID: [-1234] [] [2026-10-02 21:11:30,653]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTP Listener started on 0.0.0.0:8280
+TID: [-1234] [] [2026-10-02 21:11:30,654]  INFO {org.apache.synapse.transport.passthru.PassThroughHttpSSLListener} - Starting Pass-through HTTPS Listener...
+TID: [-1234] [] [2026-10-02 21:11:30,659]  INFO {org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager} - Pass-through HTTPS Listener started on 0.0.0.0:8243
+TID: [-1234] [] [2026-10-02 21:11:30,962]  INFO {org.wso2.carbon.ntask.core.service.impl.TaskServiceImpl} - Task service starting in STANDALONE mode...
+TID: [-1234] [] [2026-10-02 21:11:30,982]  INFO {org.wso2.carbon.mediation.ntask.NTaskTaskManager} - Initialized task manager. Tenant [-1234]
+TID: [-1234] [] [2026-10-02 21:11:31,100]  INFO {org.wso2.carbon.core.init.JMXServerManager} - JMX Service URL  : service:jmx:rmi://localhost:11111/jndi/rmi://localhost:9999/jmxrmi
+TID: [-1234] [] [2026-10-02 21:11:31,102]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - Server           :  WSO2 Enterprise Integrator-6.6.0
+TID: [-1234] [] [2026-10-02 21:11:31,103]  INFO {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} - WSO2 Carbon started in 105 sec
+TID: [-1234] [] [2026-10-02 21:11:31,859]  INFO {org.wso2.carbon.ui.internal.CarbonUIServiceComponent} - Mgt Console URL  : https://172.19.0.6:9443/carbon/

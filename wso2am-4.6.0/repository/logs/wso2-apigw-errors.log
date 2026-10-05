@@ -1,0 +1,50 @@
+2026-10-04T12:05:40,966 [-] [Start Level: Equinox Container: faab4d87-2bc7-41ce-bfb1-a7272b058fa5]  WARN {org.apache.tomcat.util.digester.Digester} Match [Server/Service/Engine/Host/Valve] failed to set property [maxDays] to []
+2026-10-04T12:06:12,304 [-] [Framework Event Dispatcher: Equinox Container: faab4d87-2bc7-41ce-bfb1-a7272b058fa5]  WARN {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator} We don't support method overloading. Ignoring [addRemoteServerConfig]
+2026-10-04T12:06:12,304 [-] [Framework Event Dispatcher: Equinox Container: faab4d87-2bc7-41ce-bfb1-a7272b058fa5]  WARN {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator} We don't support method overloading. Ignoring [resetRemoteServerConfig]
+2026-10-04T12:06:12,742 [-] [Framework Event Dispatcher: Equinox Container: faab4d87-2bc7-41ce-bfb1-a7272b058fa5]  WARN {org.apache.axis2.description.java2wsdl.DefaultSchemaGenerator} We don't support method overloading. Ignoring [searchByAttribute]
+2026-10-04T12:06:14,906 [-] [Framework Event Dispatcher: Equinox Container: faab4d87-2bc7-41ce-bfb1-a7272b058fa5]  WARN {org.wso2.carbon.identity.application.mgt.internal.ApplicationManagementServiceComponent} Templates directory not found at C:\Users\gabri\Desktop\ENTREV~1\WSO2AM~1.0\bin\..\repository\resources\identity\authntemplates
+2026-10-04T12:06:15,192 [-] [Framework Event Dispatcher: Equinox Container: faab4d87-2bc7-41ce-bfb1-a7272b058fa5]  WARN {org.wso2.carbon.identity.auth.valve.internal.AuthenticationValveServiceComponent} File invalid_tenant_domain_response.html not found. The default content will be used as the error page content.
+2026-10-04T12:06:15,226 [-] [Framework Event Dispatcher: Equinox Container: faab4d87-2bc7-41ce-bfb1-a7272b058fa5]  WARN {org.wso2.carbon.identity.auth.service.internal.AuthenticationServiceComponent} 
+
+##################################  ALERT  ##################################
+[WARNING]: Internal authentication is utilizing default credentials,
+which may expose the environment to potential security risks.
+If this is a production environment, change the credentials immediately.
+Please refer to the WSO2 security advisory: https://security.docs.wso2.com/en/latest/security-announcements/security-advisories/2023/WSO2-2023-2617/
+#############################################################################
+
+2026-10-04T12:06:17,590 [-] [Framework Event Dispatcher: Equinox Container: faab4d87-2bc7-41ce-bfb1-a7272b058fa5]  WARN {org.wso2.carbon.identity.event.internal.IdentityEventServiceComponent} Properties for OrganizationCreationHandler is not configured. This event handler will not be activated
+2026-10-04T12:06:17,615 [-] [Framework Event Dispatcher: Equinox Container: faab4d87-2bc7-41ce-bfb1-a7272b058fa5]  WARN {org.wso2.carbon.identity.application.authentication.framework.internal.FrameworkServiceComponent} Adaptive authentication is disabled.
+2026-10-04T12:07:13,838 [-] [Timer-7]  WARN {org.wso2.carbon.core.internal.StartupFinalizerServiceComponent} Waiting for required OSGi services: org.wso2.carbon.throttling.agent.ThrottlingAgent,
+2026-10-04T12:07:19,353 [-] [PassThrough HTTPS-Listener I/O dispatcher Listener]  WARN {org.apache.synapse.transport.passthru.PassThroughHttpMultiSSLListener} System may be unstable: HTTPS ListeningIOReactor encountered a checked exception : Address already in use: bind
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:555) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294) ~[?:?]
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:89) ~[?:?]
+	at org.apache.http.impl.nio.reactor.DefaultListeningIOReactor.processSessionRequests(DefaultListeningIOReactor.java:243) ~[httpcore-nio_4.4.16.wso2v4.jar:?]
+	at org.apache.http.impl.nio.reactor.DefaultListeningIOReactor.processEvents(DefaultListeningIOReactor.java:144) ~[httpcore-nio_4.4.16.wso2v4.jar:?]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351) ~[httpcore-nio_4.4.16.wso2v4.jar:?]
+	at org.apache.synapse.transport.passthru.core.PassThroughListeningIOReactorManager$1.run(PassThroughListeningIOReactorManager.java:561) ~[synapse-nhttp-transport_4.0.0.wso2v262.jar:?]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+2026-10-04T12:07:21,188 [-] [https-jsse-nio-9443-exec-43] ERROR {org.apache.jsp.services.refresh.refresh_jsp} org.wso2.carbon.ui.filters.cache.ContentTypeBasedCachePreventionFilter$1@50b9f05
+2026-10-04T12:07:21,188 [-] [https-jsse-nio-9443-exec-2] ERROR {org.apache.jsp.services.refresh.refresh_jsp} org.wso2.carbon.ui.filters.cache.ContentTypeBasedCachePreventionFilter$1@69c11dc1
+2026-10-04T12:07:21,188 [-] [https-jsse-nio-9443-exec-14] ERROR {org.apache.jsp.services.refresh.refresh_jsp} org.wso2.carbon.ui.filters.cache.ContentTypeBasedCachePreventionFilter$1@536e12be
+2026-10-04T12:07:21,252 [-] [https-jsse-nio-9443-exec-32] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+2026-10-04T12:07:21,252 [-] [https-jsse-nio-9443-exec-19] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+2026-10-04T12:07:21,252 [-] [https-jsse-nio-9443-exec-28] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+2026-10-04T12:07:21,252 [-] [https-jsse-nio-9443-exec-32] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} Provided access token is invalid
+2026-10-04T12:07:21,252 [-] [https-jsse-nio-9443-exec-19] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} Provided access token is invalid
+2026-10-04T12:07:21,252 [-] [https-jsse-nio-9443-exec-28] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} Provided access token is invalid
+2026-10-04T12:46:41,079 [-] [HTTPS-Listener I/O dispatcher-13]  WARN {org.apache.synapse.transport.passthru.SourceHandler} I/O error: Received fatal alert: certificate_unknown
+2026-10-04T12:46:41,102 [-] [HTTPS-Listener I/O dispatcher-15]  WARN {org.apache.synapse.transport.http.access.AccessConfiguration} Error loading properties from file: access-log.properties
+2026-10-04T12:46:41,113 [-] [HTTPS-Listener I/O dispatcher-15]  WARN {org.apache.synapse.commons.util.MiscellaneousUtil} Error loading properties from a file at from the System defined location: access-log.properties
+2026-10-04T12:46:41,115 [-] [HTTPS-Listener I/O dispatcher-15]  WARN {org.apache.synapse.commons.util.MiscellaneousUtil} Error loading properties from a file at from the System defined location: access-log.properties
+2026-10-04T12:53:22,234 [-] [HTTPS-Listener I/O dispatcher-16]  WARN {org.apache.synapse.transport.passthru.SourceHandler} I/O error: Received fatal alert: certificate_unknown
+2026-10-04T13:13:22,599 [-] [https-jsse-nio-9443-exec-37] ERROR {org.apache.jsp.services.refresh.refresh_jsp} org.wso2.carbon.ui.filters.cache.ContentTypeBasedCachePreventionFilter$1@3aad9f64
+2026-10-04T13:13:22,608 [-] [https-jsse-nio-9443-exec-44] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+2026-10-04T13:13:22,608 [-] [https-jsse-nio-9443-exec-44] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} Provided access token is invalid
+2026-10-04T13:40:41,846 [-] [https-jsse-nio-9443-exec-26] ERROR {org.apache.jsp.services.refresh.refresh_jsp} org.wso2.carbon.ui.filters.cache.ContentTypeBasedCachePreventionFilter$1@407590e2
+2026-10-04T13:40:41,859 [-] [https-jsse-nio-9443-exec-11] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} Invalid OAuth Token : Invalid Access Token. ACTIVE access token is not found.
+2026-10-04T13:40:41,859 [-] [https-jsse-nio-9443-exec-11] ERROR {org.wso2.carbon.apimgt.rest.api.util.impl.OAuthOpaqueAuthenticatorImpl} Provided access token is invalid

@@ -1,0 +1,15 @@
+2026-10-03T20:49:02,233 [-] [PassThroughMessageProcessor-4]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /dasdasd, HEALTH CHECK URL = /dasdasd
+2026-10-03T20:49:19,489 [-] [PassThroughMessageProcessor-6]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /relatorio-frota, HEALTH CHECK URL = /relatorio-frota
+2026-10-03T20:49:54,354 [-] [PassThroughMessageProcessor-7]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /relatorio-frota, HEALTH CHECK URL = /relatorio-frota
+2026-10-03T20:50:27,864 [-] [PassThroughMessageProcessor-8]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /relatorio-frota, HEALTH CHECK URL = /relatorio-frota
+2026-10-03T20:50:39,564 [-] [PassThroughMessageProcessor-9]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /dasdasd, HEALTH CHECK URL = /dasdasd
+2026-10-03T21:08:21,495 [-] [PassThroughMessageProcessor-16]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /, HEALTH CHECK URL = /
+2026-10-03T21:33:09,700 [-] [PassThroughMessageProcessor-36]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /relatorio-frota, HEALTH CHECK URL = /relatorio-frota
+2026-10-03T21:33:10,496 [-] [PassThroughMessageProcessor-37]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /relatorio-frota, HEALTH CHECK URL = /relatorio-frota
+2026-10-03T21:33:11,024 [-] [PassThroughMessageProcessor-38]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /relatorio-frota, HEALTH CHECK URL = /relatorio-frota
+2026-10-03T21:33:11,247 [-] [PassThroughMessageProcessor-39]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /relatorio-frota, HEALTH CHECK URL = /relatorio-frota
+2026-10-03T21:33:11,536 [-] [PassThroughMessageProcessor-40]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /relatorio-frota, HEALTH CHECK URL = /relatorio-frota
+2026-10-03T22:04:42,777 [-] [PassThroughMessageProcessor-13]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /parseRelatorioFrota, HEALTH CHECK URL = /parseRelatorioFrota
+2026-10-03T22:06:09,749 [-] [PassThroughMessageProcessor-14]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /parseRelatorioFrota, HEALTH CHECK URL = /parseRelatorioFrota
+2026-10-03T22:06:28,047 [-] [PassThroughMessageProcessor-15]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /parseRelatorioFrota, HEALTH CHECK URL = /parseRelatorioFrota
+2026-10-03T22:06:36,525 [-] [PassThroughMessageProcessor-16]  INFO __SynapseService STATUS = Message dispatched to the main sequence. Invalid URL., RESOURCE = /dasdasd, HEALTH CHECK URL = /dasdasd

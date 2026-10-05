@@ -1,0 +1,5 @@
+TID: [-1234] [2026-10-04 00:14:03,147]  INFO {AUDIT_LOG} - 'admin@carbon.super [-1234]' logged in at [2026-10-04 00:14:03,132+0000]
+TID: [-1234] [2026-10-04 00:29:21,823]  INFO {AUDIT_LOG} - 'admin@carbon.super [-1234]' logged in at [2026-10-04 00:29:21,822+0000]
+TID: [-1234] [2026-10-04 00:32:39,891]  INFO {AUDIT_LOG} - 'admin@carbon.super [-1234]' logged in at [2026-10-04 00:32:39,889+0000]
+TID: [-1234] [2026-10-04 01:02:28,695]  INFO {AUDIT_LOG} - 'admin@carbon.super [-1234]' logged in at [2026-10-04 01:02:28,694+0000]
+TID: [-1234] [2026-10-04 02:48:01,364]  INFO {AUDIT_LOG} - 'admin@carbon.super [-1234]' logged in at [2026-10-04 02:48:01,363+0000]

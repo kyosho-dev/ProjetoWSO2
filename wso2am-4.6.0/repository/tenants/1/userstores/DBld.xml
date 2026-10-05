@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserStoreManager class="org.wso2.carbon.user.core.ldap.UniqueIDReadWriteLDAPUserStoreManager">
+   <Property name="ConnectionURL">ldap://host.docker.internal:389</Property>
+   <Property name="ConnectionName">cn=admin,dc=dbld,dc=gov,dc=br</Property>
+   <Property encrypted="true" name="ConnectionPassword">eyJjIjoicGd4MjQxNDF1UC8vdEpCZmpXQW56Vno4L2ZVcHdPTHNvbU0xeDZzcEVFYUw4cHYrSmZwclBaa2hyNlhlcWF0MHh0dXB3Q2I0Uk9ETHRwSEVXZEdkTGNJaDZ5TkFYbWkvK3g5Zk9lYzRkK3JEcWNNQ3kwZlBmYjZhRE00eG1zT1VpWkhXakZOM2swTVlDSzFpZWJBekR4SW9uK0ZDNHRVZUR3WXNpQmhmODJOTDl1NU85N2xtZjJwaGRudkdLVjRTZlNlbzZyaW1seFZNMVN0M0RSZlNUdXVvdXQrb1Y0ZGFGZUlxVTVJSEMrMFF0QkVUVXVUVGVSTUZYVXc2RU5zT2xWd2pFbFE0eklXdkRXUjdsTzRLRWpnaGhBaVpzaVhyZzM5eURzV1E3VnV4aVpZWEZNZVZjb0tnSjcxbm9sRTlpVWI0V3E2T3Q0R2poZkFTOWptR0F3XHUwMDNkXHUwMDNkIiwidCI6IlJTQS9FQ0IvT0FFUHdpdGhTSEExYW5kTUdGMVBhZGRpbmciLCJ0cCI6IkQ4MEFGMkUyN0NFREM1OUY5Mzc0MTYyN0VFN0Y0OEY5NUQ0NUZFREMiLCJ0cGQiOiJTSEEtMSJ9</Property>
+   <Property name="UserSearchBase">ou=Users,dc=dbld,dc=gov,dc=br</Property>
+   <Property name="UserEntryObjectClass">inetOrgPerson</Property>
+   <Property name="UserNameAttribute">uid</Property>
+   <Property name="UserNameSearchFilter">(&amp;(objectClass=inetOrgPerson)(uid=?))</Property>
+   <Property name="UserNameListFilter">(objectClass=inetOrgPerson)</Property>
+   <Property name="UserIDAttribute">uid</Property>
+   <Property name="UserIdSearchFilter">(&amp;(objectClass=inetOrgPerson)(uid=?))</Property>
+   <Property name="UserDNPattern"/>
+   <Property name="DisplayNameAttribute"/>
+   <Property name="Disabled">false</Property>
+   <Property name="ReadGroups">true</Property>
+   <Property name="WriteGroups">true</Property>
+   <Property name="GroupSearchBase">ou=Groups,dc=dbld,dc=gov,dc=br</Property>
+   <Property name="GroupEntryObjectClass">groupOfNames</Property>
+   <Property name="GroupNameAttribute">cn</Property>
+   <Property name="GroupNameSearchFilter">(&amp;(objectClass=groupOfNames)(cn=?))</Property>
+   <Property name="GroupNameListFilter">(objectClass=groupOfNames)</Property>
+   <Property name="RoleDNPattern"/>
+   <Property name="MembershipAttribute">member</Property>
+   <Property name="MemberOfAttribute"/>
+   <Property name="BackLinksEnabled">false</Property>
+   <Property name="UserNameJavaRegEx">[a-zA-Z0-9._-|//]{3,30}$</Property>
+   <Property name="UserNameJavaScriptRegEx">^[\S]{3,30}$</Property>
+   <Property name="UsernameJavaRegExViolationErrorMsg">Username pattern policy violated.</Property>
+   <Property name="PasswordJavaRegEx">^[\S]{5,30}$</Property>
+   <Property name="PasswordJavaScriptRegEx">^[\S]{5,30}$</Property>
+   <Property name="PasswordJavaRegExViolationErrorMsg">Password pattern policy violated.</Property>
+   <Property name="RoleNameJavaRegEx">[a-zA-Z0-9._-|//]{3,30}$</Property>
+   <Property name="RoleNameJavaScriptRegEx">^[\S]{3,30}$</Property>
+   <Property name="LDAPInitialContextFactory">com.sun.jndi.ldap.LdapCtxFactory</Property>
+   <Property name="DateAndTimePattern"/>
+   <Property name="CaseInsensitiveUsername">true</Property>
+   <Property name="BulkImportSupported">true</Property>
+   <Property name="EmptyRolesAllowed">true</Property>
+   <Property name="PasswordHashMethod">PLAIN_TEXT</Property>
+   <Property name="MultiAttributeSeparator">,</Property>
+   <Property name="MaxUserNameListLength">100</Property>
+   <Property name="MaxRoleNameListLength">100</Property>
+   <Property name="kdcEnabled">false</Property>
+   <Property name="defaultRealmName">WSO2.ORG</Property>
+   <Property name="UserRolesCacheEnabled">false</Property>
+   <Property name="ConnectionPoolingEnabled">false</Property>
+   <Property name="LDAPConnectionTimeout">5000</Property>
+   <Property name="ReadTimeout">5000</Property>
+   <Property name="RetryAttempts">0</Property>
+   <Property name="CountRetrieverClass"/>
+   <Property name="java.naming.ldap.attributes.binary"/>
+   <Property name="ClaimOperationsSupported">true</Property>
+   <Property name="MembershipAttributeRange">0</Property>
+   <Property name="UserCacheExpiryMilliseconds"/>
+   <Property name="UserDNCacheEnabled">true</Property>
+   <Property name="StartTLSEnabled">false</Property>
+   <Property name="ConnectionRetryDelay">120000</Property>
+   <Property name="ImmutableAttributes"/>
+   <Property name="TimestampAttributes"/>
+   <Property name="DomainName">DBld</Property>
+   <Property name="Description"/>
+</UserStoreManager>

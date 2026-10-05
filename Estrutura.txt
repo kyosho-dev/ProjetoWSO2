@@ -1,0 +1,52 @@
+
+[Outros]
+https://app.diagrams.net/#G10t-q_H9FrsYrQRfSAWOdllt8LOwfnXkm#%7B%22pageId%22%3A%22eqw7GdaxUCp-LQWplP11%22%7D
+https://github.com/kyosho-dev/Desingn-de-Layouts
+
+
+[Usuario de teste]
+Dbld/marcos.silva@rh.com
+Dbld/carlos.gabriel@rh.com
+Password123!
+
+[Multi-tenancy]
+admin@rh.com
+admin
+
+[Api maneger]
+https://localhost:9443/carbon
+https://localhost:9443/publisher
+https://localhost:9443/devportal
+
+
+[Wso2 EI]
+
+https://192.168.1.235:9445/carbon/admin/login.jsp
+http://host.docker.internal:8288/dasdasd
+
+
+[Spring Aplication]
+
+http://localhost:8081/v1/bilhetes/processar
+http://localhost:8082/v2/funcionarios/1
+http://localhost:8083/v3/relatorios/frota/xml
+http://localhost:8084/v1/time/cached
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

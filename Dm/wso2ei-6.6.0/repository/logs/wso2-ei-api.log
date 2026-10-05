@@ -1,0 +1,95 @@
+TID: [-1234] [2026-10-02 19:07:11,305]  INFO {API_LOGGER.teste} - Initializing API: teste
+TID: [-1234] [2026-10-02 19:08:57,025]  INFO {API_LOGGER.teste} - Destroying API: teste
+TID: [-1234] [2026-10-02 19:08:57,093]  INFO {API_LOGGER.teste} - Initializing API: teste
+TID: [-1234] [2026-10-02 19:11:12,150]  INFO {API_LOGGER.teste} - Initializing API: teste
+TID: [-1234] [2026-10-02 21:11:28,624]  INFO {API_LOGGER.teste} - Initializing API: teste
+TID: [-1234] [2026-10-03 14:23:45,854]  INFO {API_LOGGER.teste} - Initializing API: teste
+TID: [-1234] [2026-10-03 14:27:21,016]  INFO {API_LOGGER.teste} - Initializing API: teste
+TID: [-1234] [2026-10-03 16:10:01,802]  INFO {API_LOGGER.teste} - Initializing API: teste
+TID: [-1234] [2026-10-03 19:07:02,025]  INFO {API_LOGGER.teste} - Initializing API: teste
+TID: [-1234] [2026-10-03 23:33:35,866]  INFO {API_LOGGER.teste} - Initializing API: teste
+TID: [-1234] [2026-10-03 23:42:07,291]  INFO {API_LOGGER.RelatorioFrotaAPIParse} - Initializing API: RelatorioFrotaAPIParse
+TID: [-1234] [2026-10-04 00:14:33,595]  INFO {API_LOGGER.teste} - Destroying API: teste
+TID: [-1234] [2026-10-04 00:14:33,603]  INFO {API_LOGGER.teste} - Initializing API: teste
+TID: [-1234] [2026-10-04 00:16:42,269]  INFO {API_LOGGER.teste} - Destroying API: teste
+TID: [-1234] [2026-10-04 00:16:42,327]  INFO {API_LOGGER.teste} - Initializing API: teste
+TID: [-1234] [2026-10-04 00:28:57,967]  INFO {API_LOGGER.RelatorioFrotaAPIParse} - Initializing API: RelatorioFrotaAPIParse
+TID: [-1234] [2026-10-04 00:28:57,969]  INFO {API_LOGGER.teste} - Initializing API: teste
+TID: [-1234] [2026-10-04 00:32:29,709]  INFO {API_LOGGER.RelatorioFrotaAPIParse} - Initializing API: RelatorioFrotaAPIParse
+TID: [-1234] [2026-10-04 00:32:29,710]  INFO {API_LOGGER.teste} - Initializing API: teste
+TID: [-1234] [2026-10-04 00:53:09,741]  INFO {API_LOGGER.RelatorioFrotaAPIParse} - Destroying API: RelatorioFrotaAPIParse
+TID: [-1234] [2026-10-04 00:53:09,803]  INFO {API_LOGGER.RelatorioFrotaAPI} - Initializing API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 00:53:47,273]  INFO {API_LOGGER.RelatorioFrotaAPI} - Destroying API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 00:53:47,277]  INFO {API_LOGGER.RelatorioFrotaAPI} - Initializing API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 00:54:57,365]  INFO {API_LOGGER.RelatorioFrotaAPI} - Destroying API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 00:54:57,369]  INFO {API_LOGGER.RelatorioFrotaAPI} - Initializing API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 00:58:05,636]  INFO {API_LOGGER.RelatorioFrotaAPI} - Destroying API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 00:58:05,639]  INFO {API_LOGGER.RelatorioFrotaAPI} - Initializing API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 00:59:19,984]  INFO {API_LOGGER.RelatorioFrotaAPI} - Destroying API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 00:59:28,637]  INFO {API_LOGGER.RelatorioFrotaAPI} - Initializing API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 01:00:32,710]  INFO {API_LOGGER.RelatorioFrotaAPI} - Destroying API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 01:00:32,713]  INFO {API_LOGGER.RelatorioFrotaAPI} - Initializing API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 01:02:23,935]  INFO {API_LOGGER.RelatorioFrotaAPI} - Initializing API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 01:02:23,937]  INFO {API_LOGGER.teste} - Initializing API: teste
+TID: [-1234] [2026-10-04 01:03:48,653]  INFO {API_LOGGER.RelatorioFrotaAPI} - Destroying API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 01:03:48,662]  INFO {API_LOGGER.RelatorioFrotaAPI} - Initializing API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 01:09:44,633]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = Iniciando busca do Relatorio no backend interno
+TID: [-1234] [2026-10-04 01:09:44,661]  WARN {API_LOGGER.RelatorioFrotaAPI} - ERROR_CODE : 101503 ERROR_MESSAGE : Error connecting to the back end
+TID: [-1234] [2026-10-04 01:09:44,663]  WARN {API_LOGGER.RelatorioFrotaAPI} - ERROR_CODE : 101503 ERROR_MESSAGE : Error connecting to the back end
+TID: [-1234] [2026-10-04 01:09:44,664]  WARN {API_LOGGER.RelatorioFrotaAPI} - Executing fault sequence mediator : org.apache.synapse.mediators.base.SequenceMediator
+TID: [-1234] [2026-10-04 01:09:44,665]  INFO {API_LOGGER.RelatorioFrotaAPI} - To: http://172.18.0.5:8083/v3/relatorios/frota/xml, MessageID: urn:uuid:c0d3fff9-531b-4b9d-a915-87c50259742c, Direction: request, MESSAGE = Erro ao conectar com a aplicação legada 172.18.0.5:8083, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
+TID: [-1234] [2026-10-04 01:10:40,813]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = Iniciando busca do Relatorio no backend interno
+TID: [-1234] [2026-10-04 01:10:40,815]  WARN {API_LOGGER.RelatorioFrotaAPI} - ERROR_CODE : 101503 ERROR_MESSAGE : Error connecting to the back end
+TID: [-1234] [2026-10-04 01:10:40,817]  WARN {API_LOGGER.RelatorioFrotaAPI} - ERROR_CODE : 101503 ERROR_MESSAGE : Error connecting to the back end
+TID: [-1234] [2026-10-04 01:10:40,818]  WARN {API_LOGGER.RelatorioFrotaAPI} - Executing fault sequence mediator : org.apache.synapse.mediators.base.SequenceMediator
+TID: [-1234] [2026-10-04 01:10:40,819]  INFO {API_LOGGER.RelatorioFrotaAPI} - To: http://172.18.0.5:8083/v3/relatorios/frota/xml, MessageID: urn:uuid:07de9379-f355-479b-bdd0-a916c1ded3b4, Direction: request, MESSAGE = Erro ao conectar com a aplicação legada 172.18.0.5:8083, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
+TID: [-1234] [2026-10-04 01:11:53,089]  INFO {API_LOGGER.RelatorioFrotaAPI} - Destroying API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 01:11:53,142]  INFO {API_LOGGER.RelatorioFrotaAPI} - Initializing API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 01:22:07,728]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = Iniciando busca do Relatorio no backend interno
+TID: [-1234] [2026-10-04 01:22:07,732]  WARN {API_LOGGER.RelatorioFrotaAPI} - ERROR_CODE : 101503 ERROR_MESSAGE : Error connecting to the back end
+TID: [-1234] [2026-10-04 01:22:07,733]  WARN {API_LOGGER.RelatorioFrotaAPI} - ERROR_CODE : 101503 ERROR_MESSAGE : Error connecting to the back end
+TID: [-1234] [2026-10-04 01:22:07,734]  WARN {API_LOGGER.RelatorioFrotaAPI} - Executing fault sequence mediator : org.apache.synapse.mediators.base.SequenceMediator
+TID: [-1234] [2026-10-04 01:22:07,735]  INFO {API_LOGGER.RelatorioFrotaAPI} - To: http://host.docker.internal/v3/relatorios/frota/xml, MessageID: urn:uuid:650093da-f61e-453e-b198-4ca4b1ab5c98, Direction: request, MESSAGE = Erro ao conectar com a aplicação legada 172.18.0.5:8083, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
+TID: [-1234] [2026-10-04 01:22:08,429]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = Iniciando busca do Relatorio no backend interno
+TID: [-1234] [2026-10-04 01:22:08,429]  INFO {API_LOGGER.RelatorioFrotaAPI} - FaultHandler executing impl: org.apache.synapse.mediators.MediatorFaultHandler
+TID: [-1234] [2026-10-04 01:22:08,429]  WARN {API_LOGGER.RelatorioFrotaAPI} - Executing fault sequence mediator : org.apache.synapse.mediators.base.SequenceMediator
+TID: [-1234] [2026-10-04 01:22:08,430]  INFO {API_LOGGER.RelatorioFrotaAPI} - To: http://host.docker.internal/v3/relatorios/frota/xml, MessageID: urn:uuid:8f46915c-e29f-4ebe-9f81-6a8d2a926583, Direction: request, MESSAGE = Erro ao conectar com a aplicação legada 172.18.0.5:8083, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
+TID: [-1234] [2026-10-04 01:22:09,093]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = Iniciando busca do Relatorio no backend interno
+TID: [-1234] [2026-10-04 01:22:09,093]  INFO {API_LOGGER.RelatorioFrotaAPI} - FaultHandler executing impl: org.apache.synapse.mediators.MediatorFaultHandler
+TID: [-1234] [2026-10-04 01:22:09,093]  WARN {API_LOGGER.RelatorioFrotaAPI} - Executing fault sequence mediator : org.apache.synapse.mediators.base.SequenceMediator
+TID: [-1234] [2026-10-04 01:22:09,094]  INFO {API_LOGGER.RelatorioFrotaAPI} - To: http://host.docker.internal/v3/relatorios/frota/xml, MessageID: urn:uuid:702d55f9-26e2-44a2-8770-1a1ea526f040, Direction: request, MESSAGE = Erro ao conectar com a aplicação legada 172.18.0.5:8083, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
+TID: [-1234] [2026-10-04 01:22:09,533]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = Iniciando busca do Relatorio no backend interno
+TID: [-1234] [2026-10-04 01:22:09,533]  INFO {API_LOGGER.RelatorioFrotaAPI} - FaultHandler executing impl: org.apache.synapse.mediators.MediatorFaultHandler
+TID: [-1234] [2026-10-04 01:22:09,533]  WARN {API_LOGGER.RelatorioFrotaAPI} - Executing fault sequence mediator : org.apache.synapse.mediators.base.SequenceMediator
+TID: [-1234] [2026-10-04 01:22:09,534]  INFO {API_LOGGER.RelatorioFrotaAPI} - To: http://host.docker.internal/v3/relatorios/frota/xml, MessageID: urn:uuid:1d19482c-0089-44d0-873a-a8bc507f2715, Direction: request, MESSAGE = Erro ao conectar com a aplicação legada 172.18.0.5:8083, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
+TID: [-1234] [2026-10-04 01:22:10,013]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = Iniciando busca do Relatorio no backend interno
+TID: [-1234] [2026-10-04 01:22:10,013]  INFO {API_LOGGER.RelatorioFrotaAPI} - FaultHandler executing impl: org.apache.synapse.mediators.MediatorFaultHandler
+TID: [-1234] [2026-10-04 01:22:10,014]  WARN {API_LOGGER.RelatorioFrotaAPI} - Executing fault sequence mediator : org.apache.synapse.mediators.base.SequenceMediator
+TID: [-1234] [2026-10-04 01:22:10,015]  INFO {API_LOGGER.RelatorioFrotaAPI} - To: http://host.docker.internal/v3/relatorios/frota/xml, MessageID: urn:uuid:6d9005e9-9c98-4c17-a0b1-fcf7b6c255c6, Direction: request, MESSAGE = Erro ao conectar com a aplicação legada 172.18.0.5:8083, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
+TID: [-1234] [2026-10-04 01:22:10,445]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = Iniciando busca do Relatorio no backend interno
+TID: [-1234] [2026-10-04 01:22:10,445]  INFO {API_LOGGER.RelatorioFrotaAPI} - FaultHandler executing impl: org.apache.synapse.mediators.MediatorFaultHandler
+TID: [-1234] [2026-10-04 01:22:10,446]  WARN {API_LOGGER.RelatorioFrotaAPI} - Executing fault sequence mediator : org.apache.synapse.mediators.base.SequenceMediator
+TID: [-1234] [2026-10-04 01:22:10,446]  INFO {API_LOGGER.RelatorioFrotaAPI} - To: http://host.docker.internal/v3/relatorios/frota/xml, MessageID: urn:uuid:823de5c0-e677-4bc7-a278-e95813d06cf1, Direction: request, MESSAGE = Erro ao conectar com a aplicação legada 172.18.0.5:8083, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
+TID: [-1234] [2026-10-04 01:22:10,901]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = Iniciando busca do Relatorio no backend interno
+TID: [-1234] [2026-10-04 01:22:10,901]  INFO {API_LOGGER.RelatorioFrotaAPI} - FaultHandler executing impl: org.apache.synapse.mediators.MediatorFaultHandler
+TID: [-1234] [2026-10-04 01:22:10,902]  WARN {API_LOGGER.RelatorioFrotaAPI} - Executing fault sequence mediator : org.apache.synapse.mediators.base.SequenceMediator
+TID: [-1234] [2026-10-04 01:22:10,903]  INFO {API_LOGGER.RelatorioFrotaAPI} - To: http://host.docker.internal/v3/relatorios/frota/xml, MessageID: urn:uuid:cfcd32b1-c2b5-4a30-87ca-d01b6e441a33, Direction: request, MESSAGE = Erro ao conectar com a aplicação legada 172.18.0.5:8083, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
+TID: [-1234] [2026-10-04 01:22:12,693]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = Iniciando busca do Relatorio no backend interno
+TID: [-1234] [2026-10-04 01:22:12,693]  INFO {API_LOGGER.RelatorioFrotaAPI} - FaultHandler executing impl: org.apache.synapse.mediators.MediatorFaultHandler
+TID: [-1234] [2026-10-04 01:22:12,693]  WARN {API_LOGGER.RelatorioFrotaAPI} - Executing fault sequence mediator : org.apache.synapse.mediators.base.SequenceMediator
+TID: [-1234] [2026-10-04 01:22:12,694]  INFO {API_LOGGER.RelatorioFrotaAPI} - To: http://host.docker.internal/v3/relatorios/frota/xml, MessageID: urn:uuid:1954ca8f-e2ea-4ccb-9492-c0173b82daab, Direction: request, MESSAGE = Erro ao conectar com a aplicação legada 172.18.0.5:8083, Envelope: <?xml version='1.0' encoding='utf-8'?><soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope"><soapenv:Body/></soapenv:Envelope>
+TID: [-1234] [2026-10-04 01:24:50,082]  INFO {API_LOGGER.RelatorioFrotaAPI} - Destroying API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 01:24:50,130]  INFO {API_LOGGER.RelatorioFrotaAPI} - Initializing API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 01:29:08,418]  INFO {API_LOGGER.RelatorioFrotaAPI} - Destroying API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 01:29:08,476]  INFO {API_LOGGER.RelatorioFrotaAPI} - Initializing API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 01:29:14,158]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = Iniciando busca do Relatorio no backend interno
+TID: [-1234] [2026-10-04 01:29:14,194]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = XML recebido da aplicação legada com sucesso
+TID: [-1234] [2026-10-04 01:30:54,760]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = Iniciando busca do Relatorio no backend interno
+TID: [-1234] [2026-10-04 01:30:54,783]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = XML recebido da aplicação legada com sucesso
+TID: [-1234] [2026-10-04 01:32:31,855]  INFO {API_LOGGER.RelatorioFrotaAPI} - Destroying API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 01:32:31,926]  INFO {API_LOGGER.RelatorioFrotaAPI} - Initializing API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 01:32:35,713]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = Iniciando busca do Relatorio no backend interno
+TID: [-1234] [2026-10-04 01:41:45,796]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = Iniciando busca do Relatorio no backend interno
+TID: [-1234] [2026-10-04 02:23:13,845]  INFO {API_LOGGER.RelatorioFrotaAPI} - Status = Iniciando busca do Relatorio no backend interno
+TID: [-1234] [2026-10-04 15:07:55,532]  INFO {API_LOGGER.RelatorioFrotaAPI} - Initializing API: RelatorioFrotaAPI
+TID: [-1234] [2026-10-04 15:07:55,534]  INFO {API_LOGGER.teste} - Initializing API: teste

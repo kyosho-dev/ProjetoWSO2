@@ -1,0 +1,78 @@
+
+networks:
+  wso2-network:
+    driver: bridge
+
+services:
+  bilhetador-api:
+    build:
+      context: ./bilhetador-api
+      dockerfile: Dockerfile
+    container_name: bilhetador-api
+    ports:
+      - "8081:8080"
+    networks:
+      - wso2-network
+
+  rh-consulta-api:
+    build:
+      context: ./rh-consulta-api
+      dockerfile: Dockerfile
+    container_name: rh-consulta-api
+    ports:
+      - "8082:8080"
+    networks:
+      - wso2-network
+
+  relatorio-legacy-api:
+    build:
+      context: ./relatorio-legacy-api
+      dockerfile: Dockerfile
+    container_name: relatorio-legacy-api
+    ports:
+      - "8083:8080"
+    networks:
+      - wso2-network
+  
+  exemplo-cache-data:
+    build:
+      context: ./exemplo-cache-data
+      dockerfile: Dockerfile
+    container_name: exemplo-cache-data
+    ports:
+      - "8084:8080"
+    networks:
+      - wso2-network
+    
+  wso2ei:
+    image: wso2/wso2ei-integrator:6.6.0
+    container_name: wso2ei
+    ports:
+      - "8288:8280"   # HTTP Gateway
+      - "8244:8243"   # HTTPS Gateway
+      - "9445:9443"   # Management Console (Carbon)
+    environment:
+      - JVM_MEM_ARG=-Xms512m -Xmx1024m
+    volumes:
+      - ./wso2ei-6.6.0:/home/wso2carbon/wso2ei-6.6.0
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - wso2-network
+
+  openldap:
+    image: osixia/openldap:latest
+    container_name: openldap
+    ports:
+      - "389:389"
+      - "636:636"
+    environment:
+      - LDAP_ORGANISATION=dbld
+      - LDAP_DOMAIN=dbld.gov.br
+      - LDAP_BASE_DN=dc=dbld,dc=gov,dc=br
+      - LDAP_ADMIN_PASSWORD=admin
+      - LDAP_REMOVE_CONFIG_AFTER_SETUP=false
+    volumes:
+      - ./ldif:/container/service/slapd/assets/config/bootstrap/ldif/custom
+    networks:
+      - wso2-network

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><api xmlns="http://ws.apache.org/ns/synapse" name="teste" context="/dasdasd">
+    <resource methods="OPTIONS" uri-template="/*">
+        <inSequence>
+            <property name="Access-Control-Allow-Origin" value="*" scope="transport"/>
+            <property name="Access-Control-Allow-Methods" value="GET,POST,PUT,DELETE,OPTIONS" scope="transport"/>
+            <property name="Access-Control-Allow-Headers" value="Content-Type,Authorization,X-Requested-With" scope="transport"/>
+            <property name="HTTP_SC" value="200" scope="axis2"/>
+            <property name="NO_ENTITY_BODY" value="true" scope="axis2" type="BOOLEAN"/>
+            <respond/>
+        </inSequence>
+    </resource>
+    <resource methods="GET">
+        <inSequence>
+            <property name="Access-Control-Allow-Origin" value="*" scope="transport"/>
+            <payloadFactory media-type="json">
+                <format>                    {                        "status": "ok"                    }                </format>
+                <args/>
+            </payloadFactory>
+            <property name="HTTP_SC" value="200" scope="axis2"/>
+            <respond/>
+        </inSequence>
+    </resource>
+</api>

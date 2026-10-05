@@ -1,0 +1,44 @@
+# Unidade Organizacional de Usuários
+dn: ou=Users,dc=dbld,dc=gov,dc=br
+objectClass: organizationalUnit
+ou: Users
+
+# Unidade Organizacional de Grupos (Resolve o erro "Error while loading roles")
+dn: ou=Groups,dc=dbld,dc=gov,dc=br
+objectClass: organizationalUnit
+ou: Groups
+
+# Usuário de teste
+dn: cn=marcos.silva,ou=Users,dc=dbld,dc=gov,dc=br
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Marcos Silva
+sn: Silva
+givenName: Marcos
+uid: marcos.silva
+userPassword: Password123!
+uidNumber: 10001
+gidNumber: 10001
+homeDirectory: /home/marcos.silva
+mail: marcos.silva@hotmail.com
+
+dn: cn=carlos.gabriel,ou=Users,dc=dbld,dc=gov,dc=br
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+cn: Carlos Gabriel
+sn: Gabriel
+givenName: Carlos
+uid: carlos.gabriel
+userPassword: Password123!
+uidNumber: 10002
+gidNumber: 10002
+homeDirectory: /home/carlos.gabriel
+mail: carlos.gabriel@hotmail.com
+
+# Grupo Exemplo no LDAP (Opcional)
+dn: cn=operators,ou=Groups,dc=dbld,dc=gov,dc=br
+objectClass: groupOfNames
+cn: operators
+member: cn=marcos.silva,ou=Users,dc=dbld,dc=gov,dc=br

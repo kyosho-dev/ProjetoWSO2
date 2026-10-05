@@ -1,0 +1,881 @@
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /oauth2/token/.well-known/openid-configuration HTTP/1.1 200 2404 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.369
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/endpoint-certificates HTTP/1.1 200 2 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.630
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/keyTemplates HTTP/1.1 200 2 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.880
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/ga-config HTTP/1.1 200 396 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.011
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/api-logging-configs HTTP/1.1 200 11 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.712
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/applications HTTP/1.1 200 39 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.391
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/subscriptions HTTP/1.1 200 39 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.388
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/revokedjwt HTTP/1.1 200 85 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.956
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/application-key-mappings HTTP/1.1 200 39 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.388
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/webhooks-subscriptions HTTP/1.1 200 29 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.712
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/gateway-policy-artifacts?gatewayLabel=RGVmYXVsdA&type=Synapse HTTP/1.1 200 39 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.713
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/block HTTP/1.1 200 75 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.959
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/application-policies HTTP/1.1 200 290 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.399
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/llm-providers HTTP/1.1 200 978 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.726
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/subscription-policies HTTP/1.1 200 621 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.728
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/api-policies HTTP/1.1 200 328 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.409
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/subscription-policies HTTP/1.1 200 621 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.414
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/correlation-configs HTTP/1.1 200 408 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.742
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/apis?gatewayLabel=Default HTTP/1.1 200 689 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.745
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/apis?gatewayLabel=Default HTTP/1.1 200 689 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.423
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/application-policies HTTP/1.1 200 290 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.013
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/scopes HTTP/1.1 200 39 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.042
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/keymanagers HTTP/1.1 200 992 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.773
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/api-policies HTTP/1.1 200 328 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/runtime-artifacts?gatewayLabel=RGVmYXVsdA&type=Synapse HTTP/1.1 200 5669 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.817
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] GET /internal/data/v1/global-policies HTTP/1.1 200 39 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.011
+127.0.0.1 - - [02/Oct/2026:17:54:14 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 74 - Apache-HttpClient/4.5.13 (Java/17.0.15) 1.855
+127.0.0.1 - - [02/Oct/2026:17:54:15 -0300] POST /internal/data/v1/notify-api-deployment-status HTTP/1.1 200 21 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.019
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] GET /publisher HTTP/1.1 302 - - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] GET /publisher/ HTTP/1.1 200 1713 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.029
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] GET /publisher/site/public/css/main.css HTTP/1.1 200 2244 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.015
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] GET /publisher/services/settings/settings.js HTTP/1.1 200 1415 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.006
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] GET /publisher/site/public/fonts/iconfont/material-icons.css HTTP/1.1 200 970 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.011
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] GET /publisher/site/public/css/draftjs.css HTTP/1.1 200 2643 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.011
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] GET /publisher/site/public/conf/portalSettings.js HTTP/1.1 200 705 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.014
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] GET /publisher/site/public/fonts/iconfont/MaterialIcons.js HTTP/1.1 200 6703 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.022
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] GET /publisher/site/public/conf/userThemes.js HTTP/1.1 200 939 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.015
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] GET /publisher/site/public/dist/index.0fae4ab81058d17ed6e4.bundle.js HTTP/1.1 200 345114 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.109
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] GET /oidc/checksession?client_id=null&redirect_uri=https://localhost:9443/publisher/services/auth/callback/login HTTP/1.1 200 51 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.007
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] GET /publisher/site/public/fonts/Open_Sans/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2 HTTP/1.1 200 8892 https://localhost:9443/publisher/site/public/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.012
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] GET /publisher/site/public/dist/ProtectedApps.95c3fe4f17a81b98475a.bundle.js HTTP/1.1 200 202503 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.104
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:25 -0300] GET /publisher/site/public/dist/132.e1ecd5ff3ac34a2aacb5.bundle.js HTTP/1.1 200 1582089 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.245
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:26 -0300] GET /publisher/site/public/images/logo.svg HTTP/1.1 200 18050 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.012
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:26 -0300] GET /publisher/site/public/fonts/iconfont/MaterialIcons-Regular.woff2 HTTP/1.1 200 60840 https://localhost:9443/publisher/site/public/fonts/iconfont/material-icons.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.011
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:26 -0300] GET /api/am/publisher/v4/swagger.yaml HTTP/1.1 200 67554 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.617
+127.0.0.1 - - [02/Oct/2026:17:54:26 -0300] POST /oauth2/token HTTP/1.1 415 - - Java-http-client/17.0.15 0.023
+127.0.0.1 - - [02/Oct/2026:17:54:26 -0300] POST /oauth2/token HTTP/1.1 415 - - Java-http-client/17.0.15 0.023
+127.0.0.1 - - [02/Oct/2026:17:54:26 -0300] POST /oauth2/token HTTP/1.1 415 - - Java-http-client/17.0.15 0.023
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:26 -0300] POST /publisher/services/refresh HTTP/1.1 500 87 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.146
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:26 -0300] POST /publisher/services/refresh HTTP/1.1 500 87 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.147
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:26 -0300] POST /publisher/services/refresh HTTP/1.1 500 87 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.146
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:27 -0300] GET /api/am/publisher/v4/settings HTTP/1.1 401 101 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.436
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:27 -0300] GET /api/am/publisher/v4/api-products?limit=5&offset=0 HTTP/1.1 401 101 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.436
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:27 -0300] GET /api/am/publisher/v4/apis?limit=5&offset=0 HTTP/1.1 401 101 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.436
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:27 -0300] GET /publisher/services/auth/callback/logout HTTP/1.1 302 - https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.005
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:27 -0300] GET /publisher/logout HTTP/1.1 200 1713 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:27 -0300] GET /publisher/site/public/fonts/Open_Sans/mem5YaGs126MiZpBA-UNirkOUuhpKKSTjw.woff2 HTTP/1.1 200 8916 https://localhost:9443/publisher/site/public/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.010
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:27 -0300] GET /publisher/site/public/conf/portalSettings.js HTTP/1.1 200 705 https://localhost:9443/publisher/logout Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:27 -0300] GET /publisher/services/settings/settings.js HTTP/1.1 200 1415 https://localhost:9443/publisher/logout Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+127.0.0.1 - - [02/Oct/2026:17:54:27 -0300] GET /api/am/publisher/v4/settings HTTP/1.1 200 2354 - Java-http-client/17.0.15 0.203
+127.0.0.1 - - [02/Oct/2026:17:54:28 -0300] GET /api/am/service-catalog/v1/settings HTTP/1.1 200 102 - Java-http-client/17.0.15 0.564
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:28 -0300] GET /publisher/services/auth/login HTTP/1.1 302 - https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.780
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:28 -0300] GET /oauth2/authorize?response_type=code&client_id=lOKNtRmYnWO18JvYCYJANhTjS6sa&scope=apim:admin%20apim:api_create%20apim:api_definition_view%20apim:api_delete%20apim:api_generate_key%20apim:api_import_export%20apim:api_list_view%20apim:api_manage%20apim:api_mediation_policy_manage%20apim:api_product_import_export%20apim:api_publish%20apim:api_view%20apim:app_import_export%20apim:client_certificates_add%20apim:client_certificates_manage%20apim:client_certificates_update%20apim:client_certificates_view%20apim:comment_manage%20apim:comment_view%20apim:comment_write%20apim:common_operation_policy_manage%20apim:common_operation_policy_view%20apim:document_create%20apim:document_manage%20apim:ep_certificates_add%20apim:ep_certificates_manage%20apim:ep_certificates_update%20apim:ep_certificates_view%20apim:gateway_policy_manage%20apim:gateway_policy_view%20apim:gov_policy_read%20apim:gov_result_read%20apim:gov_rule_read%20apim:llm_provider_read%20apim:mcp_server_create%20apim:mcp_server_delete%20apim:mcp_server_generate_key%20apim:mcp_server_import_export%20apim:mcp_server_list_view%20apim:mcp_server_manage%20apim:mcp_server_publish%20apim:mcp_server_view%20apim:mediation_policy_create%20apim:mediation_policy_manage%20apim:mediation_policy_view%20apim:policies_import_export%20apim:pub_alert_manage%20apim:publisher_organization_read%20apim:publisher_settings%20apim:shared_scope_manage%20apim:subscription_approval_manage%20apim:subscription_approval_view%20apim:subscription_block%20apim:subscription_manage%20apim:subscription_view%20apim:threat_protection_policy_create%20apim:threat_protection_policy_manage%20apim:tier_manage%20apim:tier_view%20openid%20apim:api_view%20service_catalog:service_view%20service_catalog:service_write&state=%2F&redirect_uri=https://localhost:9443/publisher/services/auth/callback/login HTTP/1.1 302 - https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.453
+127.0.0.1 - - [02/Oct/2026:17:54:28 -0300] POST /oauth2/token HTTP/1.1 200 2921 - Java-http-client/17.0.15 0.203
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:28 -0300] GET /publisher/services/auth/callback/login?code=07390d0f-eab6-3655-af51-073c4449bf28&state=%2F&session_state=3f1771e1735a11bad39654816057454f7fa28713470bb2b0ee505172cbef6f89.0c6ANhpRi5RbMQjtU2XNmg HTTP/1.1 302 - https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.216
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:28 -0300] GET /publisher/ HTTP/1.1 200 1713 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:28 -0300] GET /publisher/site/public/conf/portalSettings.js HTTP/1.1 200 705 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:28 -0300] GET /publisher/services/settings/settings.js HTTP/1.1 200 1415 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+127.0.0.1 - - [02/Oct/2026:17:54:29 -0300] GET /oauth2/userinfo HTTP/1.1 400 70 - Java-http-client/17.0.15 0.009
+127.0.0.1 - - [02/Oct/2026:17:54:29 -0300] POST /oauth2/introspect HTTP/1.1 200 1725 - Java-http-client/17.0.15 0.232
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:29 -0300] GET /publisher/services/auth/introspect HTTP/1.1 200 1773 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.259
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:29 -0300] GET /oidc/checksession?client_id=lOKNtRmYnWO18JvYCYJANhTjS6sa&redirect_uri=https://localhost:9443/publisher/services/auth/callback/login HTTP/1.1 200 3134 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:29 -0300] GET /api/am/publisher/v4/swagger.yaml HTTP/1.1 200 67554 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.016
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:30 -0300] GET /api/am/publisher/v4/settings HTTP/1.1 200 1569 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.578
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:30 -0300] GET /api/am/publisher/v4/api-products?limit=5&offset=0 HTTP/1.1 200 91 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.680
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:30 -0300] GET /api/am/publisher/v4/api-products?limit=5&offset=0 HTTP/1.1 200 91 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.009
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:30 -0300] GET /api/am/publisher/v4/mcp-servers?limit=5&offset=0 HTTP/1.1 200 91 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.066
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:30 -0300] GET /api/am/publisher/v4/apis?limit=5&offset=0 HTTP/1.1 200 661 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.737
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:30 -0300] GET /api/am/publisher/v4/apis?limit=5&offset=0 HTTP/1.1 200 661 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.027
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:30 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:30 -0300] GET /publisher/site/public/images/landing-icons/no-data.svg HTTP/1.1 200 1245 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.016
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:30 -0300] GET /publisher/site/public/images/landing-icons/apis-bg.svg HTTP/1.1 200 5224 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.014
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:30 -0300] GET /publisher/site/public/images/landing-icons/mcps-bg.svg HTTP/1.1 200 6343 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.015
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:30 -0300] GET /publisher/site/public/images/landing-icons/api-products-bg.svg HTTP/1.1 200 6999 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.014
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:17:54:30 -0300] GET /publisher/site/public/fonts/Open_Sans/open-sans-v43-latin-700.woff2 HTTP/1.1 200 18244 https://localhost:9443/publisher/site/public/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.010
+127.0.0.1 - - [02/Oct/2026:17:54:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.008
+127.0.0.1 - - [02/Oct/2026:17:55:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:17:55:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:17:56:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:17:56:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.007
+127.0.0.1 - - [02/Oct/2026:17:57:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:17:57:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:17:58:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:17:58:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.007
+127.0.0.1 - - [02/Oct/2026:17:59:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:17:59:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:18:00:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:00:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:01:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:01:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.016
+127.0.0.1 - - [02/Oct/2026:18:02:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.009
+127.0.0.1 - - [02/Oct/2026:18:02:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:03:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.007
+127.0.0.1 - - [02/Oct/2026:18:03:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:04:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:18:04:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:05:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.012
+127.0.0.1 - - [02/Oct/2026:18:05:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.008
+127.0.0.1 - - [02/Oct/2026:18:06:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:18:06:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.007
+127.0.0.1 - - [02/Oct/2026:18:07:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:07:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:08:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.008
+192.168.1.235 - - [02/Oct/2026:18:08:30 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:30 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:33 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:33 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:34 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:34 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:35 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:35 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/login.jsp HTTP/1.1 200 3681 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 3.102
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/login.jsp HTTP/1.1 200 3680 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 2.006
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/login.jsp HTTP/1.1 200 3682 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.634
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/css/global.css HTTP/1.1 200 5311 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.005
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/dialog/css/dialog.css HTTP/1.1 200 510 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/yui/build/yahoo/yahoo-min.js HTTP/1.1 200 3057 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/css/carbonFormStyles.css HTTP/1.1 200 2050 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/yui/build/selector/selector-min.js HTTP/1.1 200 4236 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/styles/css/main.css HTTP/1.1 200 1240 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/dialog/css/jqueryui/jqueryui-themeroller.css HTTP/1.1 200 8544 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 4378 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.023
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/js/jquery-migrate-3.3.2.js HTTP/1.1 200 8236 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/js/jquery.form.js HTTP/1.1 200 13555 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/js/jquery-3.6.0.min.js HTTP/1.1 200 31389 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.006
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/js/jquery.cookie.js HTTP/1.1 200 1407 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/js/jquery.validate.js HTTP/1.1 200 13953 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/js/jquery.ui.core.min.js HTTP/1.1 200 6487 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/js/jquery.ui.widget.min.js HTTP/1.1 200 3168 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/js/cookies.js HTTP/1.1 200 1136 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/js/customControls.js HTTP/1.1 200 1193 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/js/jquery.ui.tabs.min.js HTTP/1.1 200 6857 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/js/WSRequest.js HTTP/1.1 200 12981 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/js/main.js HTTP/1.1 200 15375 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] POST /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 52 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/dialog/js/dialog.js HTTP/1.1 200 2644 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/yui/build/yahoo-dom-event/yahoo-dom-event.js HTTP/1.1 200 13405 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/js/template.js HTTP/1.1 200 3596 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/images/up-arrow.gif HTTP/1.1 200 615 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/images/user-guide.gif HTTP/1.1 200 2228 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/dialog/js/jqueryui/jquery-ui.min.js HTTP/1.1 200 68539 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.014
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/yui/build/animation/animation-min.js HTTP/1.1 200 4957 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/images/issue-tracker.gif HTTP/1.1 200 1821 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/images/forum.gif HTTP/1.1 200 1977 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/images/1px.gif HTTP/1.1 200 43 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/styles/images/api-logo.png HTTP/1.1 200 4077 https://192.168.1.235:9443/carbon/styles/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/styles/images/api-header-region-bg.png HTTP/1.1 200 255 https://192.168.1.235:9443/carbon/styles/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/styles/images/api-header-back.png HTTP/1.1 200 22845 https://192.168.1.235:9443/carbon/styles/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/styles/images/api-server-menu-header.gif HTTP/1.1 200 176 https://192.168.1.235:9443/carbon/styles/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/styles/images/api-server-menu-panel-bg.png HTTP/1.1 200 218 https://192.168.1.235:9443/carbon/styles/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/images/menu_header.gif HTTP/1.1 404 823 https://192.168.1.235:9443/carbon/styles/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/images/help.gif HTTP/1.1 200 411 https://192.168.1.235:9443/carbon/admin/css/global.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:08:36 -0300] GET /carbon/admin/images/favicon.ico HTTP/1.1 200 17542 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+127.0.0.1 - - [02/Oct/2026:18:08:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:18:09:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:18:09:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.021
+192.168.1.235 - - [02/Oct/2026:18:09:56 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:56 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:56 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] POST /carbon/admin/login_action.jsp HTTP/1.1 302 - https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.721
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/admin/index.jsp?loginStatus=true HTTP/1.1 200 4041 https://192.168.1.235:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.223
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 4378 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/admin/jsp/registry_styles_ajaxprocessor.jsp HTTP/1.1 200 123 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.171
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] POST /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 52 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/userstore/images/add.gif HTTP/1.1 200 407 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/userstore/images/user-store.gif HTTP/1.1 200 617 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/userstore_config/images/multiple-user-stores.png HTTP/1.1 200 783 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/identity-claim-mgt/images/claims.gif HTTP/1.1 200 1046 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/identity-claim-mgt/images/add.gif HTTP/1.1 200 407 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/application/images/service-provider.png HTTP/1.1 200 670 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/application/images/add.png HTTP/1.1 200 639 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/idpmgt/images/trust.png HTTP/1.1 200 775 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/log-config/images/log.gif HTTP/1.1 200 596 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] - 400 - - - 0.000
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/tenant-mgt/images/services.gif HTTP/1.1 200 604 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/idpmgt/images/add.gif HTTP/1.1 200 407 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/application/images/local-sp.png HTTP/1.1 200 576 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/userstore_config/images/add.gif HTTP/1.1 200 407 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/identity-claim-mgt/images/list.gif HTTP/1.1 200 216 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/userstore_config/images/list.gif HTTP/1.1 200 216 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/roles-mgt/images/server-role.gif HTTP/1.1 200 1073 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/tenant-mgt/images/multi_tenancy.png HTTP/1.1 200 768 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/admin-advisory-mgt/images/admin-adv.png HTTP/1.1 200 1118 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/idpmgt/images/list.gif HTTP/1.1 200 216 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/idpmgt/images/resident-idp.png HTTP/1.1 200 576 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/tenant-mgt/images/services1.gif HTTP/1.1 200 608 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/userstore/images/list.gif HTTP/1.1 200 216 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/email-mgt/images/i18nemail-template.png HTTP/1.1 200 602 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/email-mgt/images/add_email.gif HTTP/1.1 200 407 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/application/images/list.png HTTP/1.1 200 216 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/email-mgt/images/edit_email.gif HTTP/1.1 200 1036 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/keystoremgt/images/keystore.gif HTTP/1.1 200 604 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/keystoremgt/images/list.gif HTTP/1.1 200 216 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/consent/images/consent.gif HTTP/1.1 200 1017 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/keystoremgt/images/add.gif HTTP/1.1 200 407 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/consent/images/list.png HTTP/1.1 200 216 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/consent/images/add.png HTTP/1.1 200 639 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/oauth/images/oauth.gif HTTP/1.1 200 1025 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/oauth/images/add.gif HTTP/1.1 200 407 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/oauth/images/list.gif HTTP/1.1 200 216 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/event-flow/images/event-flow.png HTTP/1.1 200 865 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/eventpublisher/images/events.png HTTP/1.1 200 625 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/eventstream/images/event-stream.png HTTP/1.1 200 688 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/admin/images/down-arrow.gif HTTP/1.1 200 610 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/eventreceiver/images/event-receiver.png HTTP/1.1 200 799 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/admin/images/leftRightSlider-dark.png HTTP/1.1 200 1421 https://192.168.1.235:9443/carbon/admin/css/global.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/eventpublisher/images/event-publisher.png HTTP/1.1 200 863 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/resources/images/resources.gif HTTP/1.1 200 1028 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/admin/jsp/session-validate.jsp HTTP/1.1 200 3554 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.094
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/server-admin/system_status_ajaxprocessor.jsp HTTP/1.1 200 1238 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.302
+192.168.1.235 - - [02/Oct/2026:18:09:57 -0300] GET /carbon/admin/images/table-header.gif HTTP/1.1 200 873 https://192.168.1.235:9443/carbon/admin/css/global.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:10:04 -0300] GET /carbon/userstore_config/userstore-config.jsp?region=region1&item=userstores_mgt_menu_add HTTP/1.1 200 10642 https://192.168.1.235:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.705
+192.168.1.235 - - [02/Oct/2026:18:10:04 -0300] GET /carbon/admin/jsp/registry_styles_ajaxprocessor.jsp HTTP/1.1 200 123 https://192.168.1.235:9443/carbon/userstore_config/userstore-config.jsp?region=region1&item=userstores_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+192.168.1.235 - - [02/Oct/2026:18:10:04 -0300] GET /carbon/entitlement/css/entitlement.css HTTP/1.1 404 823 https://192.168.1.235:9443/carbon/userstore_config/userstore-config.jsp?region=region1&item=userstores_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:10:04 -0300] GET /carbon/admin/js/breadcrumbs.js HTTP/1.1 200 1333 https://192.168.1.235:9443/carbon/userstore_config/userstore-config.jsp?region=region1&item=userstores_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:10:04 -0300] GET /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 4378 https://192.168.1.235:9443/carbon/userstore_config/userstore-config.jsp?region=region1&item=userstores_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:10:04 -0300] POST /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 52 https://192.168.1.235:9443/carbon/userstore_config/userstore-config.jsp?region=region1&item=userstores_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:10:04 -0300] GET /carbon/entitlement/css/entitlement.css HTTP/1.1 404 823 https://192.168.1.235:9443/carbon/userstore_config/userstore-config.jsp?region=region1&item=userstores_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:10:04 -0300] GET /carbon/admin/images/help-small-icon.png HTTP/1.1 200 631 https://192.168.1.235:9443/carbon/admin/css/carbonFormStyles.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+192.168.1.235 - - [02/Oct/2026:18:10:04 -0300] GET /carbon/admin/images/down-arrow.png HTTP/1.1 200 791 https://192.168.1.235:9443/carbon/admin/css/global.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:10:04 -0300] GET /carbon/admin/images/buttonRow-bg.gif HTTP/1.1 200 130 https://192.168.1.235:9443/carbon/admin/css/global.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:10:05 -0300] GET /carbon/identity-claim-mgt/add.jsp?region=region1&item=identity_claim_mgt_menu_add HTTP/1.1 200 3957 https://192.168.1.235:9443/carbon/userstore_config/userstore-config.jsp?region=region1&item=userstores_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.094
+192.168.1.235 - - [02/Oct/2026:18:10:05 -0300] GET /carbon/admin/jsp/registry_styles_ajaxprocessor.jsp HTTP/1.1 200 123 https://192.168.1.235:9443/carbon/identity-claim-mgt/add.jsp?region=region1&item=identity_claim_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+192.168.1.235 - - [02/Oct/2026:18:10:05 -0300] GET /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 4378 https://192.168.1.235:9443/carbon/identity-claim-mgt/add.jsp?region=region1&item=identity_claim_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:10:05 -0300] POST /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 52 https://192.168.1.235:9443/carbon/identity-claim-mgt/add.jsp?region=region1&item=identity_claim_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+192.168.1.235 - - [02/Oct/2026:18:10:05 -0300] GET /carbon/admin/images/add.gif HTTP/1.1 200 407 https://192.168.1.235:9443/carbon/identity-claim-mgt/add.jsp?region=region1&item=identity_claim_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+127.0.0.1 - - [02/Oct/2026:18:10:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:18:10:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.008
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:04 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:04 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:04 -0300] GET /carbon HTTP/1.1 302 - - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:04 -0300] GET /carbon/admin/index.jsp HTTP/1.1 302 - - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:04 -0300] GET /carbon/admin/login.jsp HTTP/1.1 200 3678 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.013
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/css/global.css HTTP/1.1 200 5311 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/styles/css/main.css HTTP/1.1 200 1240 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/js/jquery-3.6.0.min.js HTTP/1.1 200 31389 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.006
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/js/cookies.js HTTP/1.1 200 1136 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/yui/build/yahoo-dom-event/yahoo-dom-event.js HTTP/1.1 200 13405 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/dialog/css/dialog.css HTTP/1.1 200 510 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/yui/build/selector/selector-min.js HTTP/1.1 200 4236 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/css/carbonFormStyles.css HTTP/1.1 200 2050 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 4370 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/js/jquery-migrate-3.3.2.js HTTP/1.1 200 8236 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/js/jquery.form.js HTTP/1.1 200 13555 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/js/jquery.cookie.js HTTP/1.1 200 1407 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/js/jquery.ui.widget.min.js HTTP/1.1 200 3168 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/js/jquery.validate.js HTTP/1.1 200 13953 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.005
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/js/jquery.ui.core.min.js HTTP/1.1 200 6487 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/dialog/css/jqueryui/jqueryui-themeroller.css HTTP/1.1 200 8544 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/js/jquery.ui.tabs.min.js HTTP/1.1 200 6857 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.005
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/js/customControls.js HTTP/1.1 200 1193 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/dialog/js/dialog.js HTTP/1.1 200 2644 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/js/main.js HTTP/1.1 200 15375 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.006
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/js/WSRequest.js HTTP/1.1 200 12981 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.006
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/js/template.js HTTP/1.1 200 3596 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/yui/build/animation/animation-min.js HTTP/1.1 200 4957 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/yui/build/yahoo/yahoo-min.js HTTP/1.1 200 3057 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/images/user-guide.gif HTTP/1.1 200 2228 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] POST /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 52 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/images/up-arrow.gif HTTP/1.1 200 615 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/dialog/js/jqueryui/jquery-ui.min.js HTTP/1.1 200 68539 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.021
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/images/issue-tracker.gif HTTP/1.1 200 1821 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/images/forum.gif HTTP/1.1 200 1977 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/images/1px.gif HTTP/1.1 200 43 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/styles/images/api-server-menu-header.gif HTTP/1.1 200 176 https://localhost:9443/carbon/styles/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/styles/images/api-header-region-bg.png HTTP/1.1 200 255 https://localhost:9443/carbon/styles/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/styles/images/api-logo.png HTTP/1.1 200 4077 https://localhost:9443/carbon/styles/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/styles/images/api-server-menu-panel-bg.png HTTP/1.1 200 218 https://localhost:9443/carbon/styles/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/images/menu_header.gif HTTP/1.1 404 823 https://localhost:9443/carbon/styles/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/styles/images/api-header-back.png HTTP/1.1 200 22845 https://localhost:9443/carbon/styles/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:05 -0300] GET /carbon/admin/images/help.gif HTTP/1.1 200 411 https://localhost:9443/carbon/admin/css/global.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:11 -0300] GET /devportal HTTP/1.1 302 - - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:11 -0300] GET /devportal/ HTTP/1.1 200 1691 - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.078
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:11 -0300] GET /devportal/site/public/theme/userTheme.js HTTP/1.1 200 96 https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.012
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:11 -0300] GET /devportal/site/public/css/main.css HTTP/1.1 200 2525 https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.013
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:11 -0300] GET /devportal/services/settings/settings.js HTTP/1.1 200 1667 https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.014
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:11 -0300] GET /devportal/site/public/css/overrides.css HTTP/1.1 200 244 https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.010
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:11 -0300] GET /devportal/site/public/fonts/iconfont/material-icons.css HTTP/1.1 200 970 https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.012
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:11 -0300] GET /devportal/site/public/fonts/iconfont/MaterialIcons.js HTTP/1.1 200 6703 https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.024
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:12 -0300] GET /devportal/site/public/dist/index.c35e5a2093ccc94d0a72.bundle.js HTTP/1.1 200 384198 https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.185
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:12 -0300] GET /devportal/site/public/locales/en.json HTTP/1.1 200 70357 https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.012
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:12 -0300] GET /devportal/site/public/images/_favicon.ico HTTP/1.1 200 1150 https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.010
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:12 -0300] GET /api/am/devportal/v3/swagger.yaml HTTP/1.1 200 33642 https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.490
+127.0.0.1 - - [02/Oct/2026:18:11:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.007
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /api/am/devportal/v3/settings HTTP/1.1 200 800 https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.653
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal/site/public/dist/ProtectedApp.da1dd2d61d4da0632ad8.bundle.js HTTP/1.1 200 89959 https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.038
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal/site/public/dist/1221.79c2e610ac2beed56815.bundle.js HTTP/1.1 200 104929 https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.293
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal/site/public/theme/temporary_environments_config.json HTTP/1.1 200 - https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal/site/public/theme/temporary_features_config.json HTTP/1.1 200 - https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /api/am/devportal/v3/tenants?state=active HTTP/1.1 200 96 https://localhost:9443/devportal/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.056
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal/site/public/dist/4855.673bc555237fd15d29e1.bundle.js HTTP/1.1 200 9264 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.035
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal/site/public/dist/8825.5154a2a876c5d9e4a4df.bundle.js HTTP/1.1 200 5434 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.041
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal/site/public/dist/1512.2b3e8f5b7752fdc8ac0b.bundle.js HTTP/1.1 200 9948 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.041
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal/site/public/dist/9947.39409bf16802d8b4d8a1.bundle.js HTTP/1.1 200 14521 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.042
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal/site/public/dist/7629.308e88c9fa7f415afd02.bundle.js HTTP/1.1 200 5691 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.045
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal/site/public/images/appbarBack.png HTTP/1.1 200 1964 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.006
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal HTTP/1.1 302 - https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal/site/public/fonts/Open_Sans/mem8YaGs126MiZpBA-UFVZ0bf8pkAg.woff2 HTTP/1.1 200 8892 https://localhost:9443/devportal/site/public/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.016
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal/site/public/fonts/Open_Sans/mem5YaGs126MiZpBA-UN7rgOUuhpKKSTjw.woff2 HTTP/1.1 200 8800 https://localhost:9443/devportal/site/public/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.016
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal/site/public/images/logo.svg HTTP/1.1 200 74991 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.020
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal/site/public/fonts/iconfont/MaterialIcons-Regular.woff2 HTTP/1.1 200 60840 https://localhost:9443/devportal/site/public/fonts/iconfont/material-icons.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.016
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:13 -0300] GET /devportal/site/public/images/_favicon.ico HTTP/1.1 200 1150 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:14 -0300] GET /devportal/ HTTP/1.1 200 1691 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:14 -0300] GET /devportal/site/public/dist/7125.09fe20bc53e0fd0be831.bundle.js HTTP/1.1 200 5716 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.032
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:14 -0300] GET /devportal/site/public/dist/Apis.7f186a2f97cddeaf01be.bundle.js HTTP/1.1 200 7537 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.038
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:14 -0300] GET /devportal/site/public/dist/1563.847868c15b2d4308002a.bundle.js HTTP/1.1 200 27556 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.052
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:14 -0300] GET /devportal/site/public/dist/3523.79d8b67bcded34c573d9.bundle.js HTTP/1.1 200 115768 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.624
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:14 -0300] GET /api/am/devportal/v3/api-categories HTTP/1.1 200 21 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.043
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:14 -0300] GET /api/am/devportal/v3/tags?limit=-1 HTTP/1.1 200 92 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.126
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:14 -0300] GET /api/am/devportal/v3/apis?limit=10&offset=0 HTTP/1.1 200 669 https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.239
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:14 -0300] GET /devportal/site/public/fonts/Open_Sans/open-sans-v43-latin-600.woff2 HTTP/1.1 200 18600 https://localhost:9443/devportal/site/public/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.009
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:14 -0300] GET /api/am/devportal/v3/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/thumbnail HTTP/1.1 204 - https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.066
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:14 -0300] GET /api/am/devportal/v3/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/thumbnail HTTP/1.1 204 - https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.066
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:11:14 -0300] GET /api/am/devportal/v3/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/thumbnail HTTP/1.1 204 - https://localhost:9443/devportal/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.066
+127.0.0.1 - - [02/Oct/2026:18:11:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.023
+127.0.0.1 - - [02/Oct/2026:18:12:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:12:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:13:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:13:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:14:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:14:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:15:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.007
+127.0.0.1 - - [02/Oct/2026:18:15:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:18:16:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:18:16:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:17:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:17:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:18:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:18:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:19:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:19:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.007
+127.0.0.1 - - [02/Oct/2026:18:20:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:20:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:21:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:18:21:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:18:22:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:22:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.007
+127.0.0.1 - - [02/Oct/2026:18:23:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:23:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:24:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:24:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:25:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.007
+127.0.0.1 - - [02/Oct/2026:18:25:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:26:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:26:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:27:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:27:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:28:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:28:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:29:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] GET /publisher/site/public/dist/4005.c4a3665b1173aa1d6ef1.bundle.js HTTP/1.1 200 9786 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.134
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] GET /publisher/site/public/dist/3488.fecc4ad6cb0f1c83d5ea.bundle.js HTTP/1.1 200 362052 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.215
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] GET /publisher/site/public/dist/DeferredAPIs.267c9868ec97f714552f.bundle.js HTTP/1.1 200 26411 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.264
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] GET /publisher/site/public/dist/2861.0a7939a3633db3f82af2.bundle.js HTTP/1.1 200 16941 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.041
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] GET /publisher/site/public/dist/APICreateRoutes.323aad285798b527c325.bundle.js HTTP/1.1 200 31238 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.053
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] GET /publisher/site/public/dist/2861.0a7939a3633db3f82af2.bundle.js HTTP/1.1 200 16941 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] GET /publisher/site/public/dist/1018.657dcc57f23e30e131a3.bundle.js HTTP/1.1 200 487602 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.125
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] GET /publisher/site/public/dist/1018.657dcc57f23e30e131a3.bundle.js HTTP/1.1 200 487602 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.067
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] GET /publisher/site/public/dist/3789.158d63e2ac9b25590a88.bundle.js HTTP/1.1 200 1042828 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.167
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:39 -0300] GET /publisher/site/public/dist/DeferredDetails.6e9ba5dbd87303cdf38c.bundle.js HTTP/1.1 200 370339 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.178
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:40 -0300] GET /api/am/publisher/v4/tenants?state=active HTTP/1.1 200 96 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.236
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:40 -0300] GET /api/am/publisher/v4/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213 HTTP/1.1 200 1366 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.293
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:40 -0300] GET /api/am/publisher/v4/me/organization-information HTTP/1.1 200 35 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.007
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:40 -0300] GET /publisher/site/public/fonts/Open_Sans/mem5YaGs126MiZpBA-UN_r8OUuhpKKSTjw.woff2 HTTP/1.1 200 8732 https://localhost:9443/publisher/site/public/css/main.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.013
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:40 -0300] GET /api/am/publisher/v4/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/swagger HTTP/1.1 200 1265 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.063
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:40 -0300] GET /api/am/publisher/v4/settings HTTP/1.1 200 1569 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.157
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:40 -0300] GET /api/am/publisher/v4/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/revisions?query=deployed%3Atrue HTTP/1.1 200 487 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.351
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:40 -0300] GET /api/am/publisher/v4/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/revisions HTTP/1.1 200 455 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.351
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:40 -0300] GET /api/am/publisher/v4/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/revisions?query=deployed%3Atrue HTTP/1.1 200 487 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.005
+127.0.0.1 - - [02/Oct/2026:18:29:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:42 -0300] GET /api/am/publisher/v4/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/deployments HTTP/1.1 200 274 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/test-console Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.010
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:42 -0300] GET /api/am/publisher/v4/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/swagger HTTP/1.1 200 1265 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/test-console Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.036
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:42 -0300] POST /api/am/publisher/v4/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/generate-key HTTP/1.1 200 979 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/test-console Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.072
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:43 -0300] GET /publisher/site/public/dist/TryoutConsoleSwaggerUI.d23d0049060513bf54bd.bundle.js HTTP/1.1 200 1867 https://localhost:9443/publisher/apis/e2751bd4-70e9-4e96-9c39-c0d334d80213/test-console Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.032
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:56 -0300] GET /api/am/publisher/v4/apis?limit=10&offset=0 HTTP/1.1 200 661 https://localhost:9443/publisher/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.061
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:58 -0300] GET /api/am/publisher/v4/tenants?state=active HTTP/1.1 200 96 https://localhost:9443/publisher/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.005
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:58 -0300] GET /api/am/publisher/v4/apis/fad559f5-1e65-405e-83cc-a844eff07a6e HTTP/1.1 200 1355 https://localhost:9443/publisher/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.019
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:58 -0300] GET /api/am/publisher/v4/me/organization-information HTTP/1.1 200 35 https://localhost:9443/publisher/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:58 -0300] GET /api/am/publisher/v4/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/revisions?query=deployed%3Atrue HTTP/1.1 200 486 https://localhost:9443/publisher/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.006
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:58 -0300] GET /api/am/publisher/v4/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/revisions HTTP/1.1 200 696 https://localhost:9443/publisher/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.006
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:58 -0300] GET /api/am/publisher/v4/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/revisions?query=deployed%3Atrue HTTP/1.1 200 486 https://localhost:9443/publisher/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.007
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:58 -0300] GET /api/am/publisher/v4/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/swagger HTTP/1.1 200 776 https://localhost:9443/publisher/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.036
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:29:58 -0300] GET /api/am/publisher/v4/settings HTTP/1.1 200 1569 https://localhost:9443/publisher/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.146
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:01 -0300] GET /api/am/publisher/v4/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/deployments HTTP/1.1 200 274 https://localhost:9443/publisher/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/test-console Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.008
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:01 -0300] POST /api/am/publisher/v4/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/generate-key HTTP/1.1 200 994 https://localhost:9443/publisher/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/test-console Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.016
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:01 -0300] GET /api/am/publisher/v4/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/swagger HTTP/1.1 200 776 https://localhost:9443/publisher/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/test-console Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.017
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:10 -0300] GET /api/am/publisher/v4/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/revisions?query=deployed%3Atrue HTTP/1.1 200 486 https://localhost:9443/publisher/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.006
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:10 -0300] GET /api/am/publisher/v4/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/swagger HTTP/1.1 200 776 https://localhost:9443/publisher/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.019
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:10 -0300] GET /api/am/publisher/v4/settings HTTP/1.1 200 1569 https://localhost:9443/publisher/apis/fad559f5-1e65-405e-83cc-a844eff07a6e/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.082
+127.0.0.1 - - [02/Oct/2026:18:30:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:12 -0300] GET /api/am/publisher/v4/apis?limit=10&offset=0 HTTP/1.1 200 661 https://localhost:9443/publisher/apis Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.014
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:14 -0300] GET /api/am/publisher/v4/tenants?state=active HTTP/1.1 200 96 https://localhost:9443/publisher/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:14 -0300] GET /api/am/publisher/v4/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8 HTTP/1.1 200 1346 https://localhost:9443/publisher/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.015
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:14 -0300] GET /api/am/publisher/v4/me/organization-information HTTP/1.1 200 35 https://localhost:9443/publisher/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:14 -0300] GET /api/am/publisher/v4/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/revisions HTTP/1.1 200 696 https://localhost:9443/publisher/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:14 -0300] GET /api/am/publisher/v4/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/revisions?query=deployed%3Atrue HTTP/1.1 200 486 https://localhost:9443/publisher/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:14 -0300] GET /api/am/publisher/v4/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/revisions?query=deployed%3Atrue HTTP/1.1 200 486 https://localhost:9443/publisher/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.005
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:14 -0300] GET /api/am/publisher/v4/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/swagger HTTP/1.1 200 767 https://localhost:9443/publisher/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.013
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:14 -0300] GET /api/am/publisher/v4/settings HTTP/1.1 200 1569 https://localhost:9443/publisher/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/overview Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.083
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:18 -0300] GET /api/am/publisher/v4/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/deployments HTTP/1.1 200 274 https://localhost:9443/publisher/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/test-console Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.008
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:18 -0300] POST /api/am/publisher/v4/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/generate-key HTTP/1.1 200 988 https://localhost:9443/publisher/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/test-console Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.017
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:18 -0300] GET /api/am/publisher/v4/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/swagger HTTP/1.1 200 767 https://localhost:9443/publisher/apis/9bd21ad2-f02e-4ee2-8be2-444f274257a8/test-console Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.018
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:30 -0300] GET /api/am/publisher/v4/api-products?limit=5&offset=0 HTTP/1.1 200 91 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.020
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:30 -0300] GET /api/am/publisher/v4/apis?limit=5&offset=0 HTTP/1.1 200 661 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.020
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:30 -0300] GET /api/am/publisher/v4/api-products?limit=5&offset=0 HTTP/1.1 200 91 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.005
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:30 -0300] GET /api/am/publisher/v4/mcp-servers?limit=5&offset=0 HTTP/1.1 200 91 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.026
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:30 -0300] GET /api/am/publisher/v4/apis?limit=5&offset=0 HTTP/1.1 200 661 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.014
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:30:30 -0300] GET /publisher/site/public/images/landing-icons/no-data.svg HTTP/1.1 200 1245 https://localhost:9443/publisher/ Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+127.0.0.1 - - [02/Oct/2026:18:30:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:31:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] POST /carbon/admin/login_action.jsp HTTP/1.1 302 - https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.067
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/admin/index.jsp?loginStatus=true HTTP/1.1 200 4039 https://localhost:9443/carbon/admin/login.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.013
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/admin/jsp/registry_styles_ajaxprocessor.jsp HTTP/1.1 200 123 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.004
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 4370 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] POST /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 52 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/userstore/images/user-store.gif HTTP/1.1 200 617 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/userstore/images/add.gif HTTP/1.1 200 407 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/userstore_config/images/add.gif HTTP/1.1 200 407 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/identity-claim-mgt/images/claims.gif HTTP/1.1 200 1046 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/identity-claim-mgt/images/add.gif HTTP/1.1 200 407 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/application/images/add.png HTTP/1.1 200 639 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/tenant-mgt/images/multi_tenancy.png HTTP/1.1 200 768 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/application/images/list.png HTTP/1.1 200 216 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/userstore/images/list.gif HTTP/1.1 200 216 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] - 400 - - - 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/userstore_config/images/multiple-user-stores.png HTTP/1.1 200 783 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/identity-claim-mgt/images/list.gif HTTP/1.1 200 216 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/idpmgt/images/trust.png HTTP/1.1 200 775 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/application/images/service-provider.png HTTP/1.1 200 670 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/admin-advisory-mgt/images/admin-adv.png HTTP/1.1 200 1118 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/roles-mgt/images/server-role.gif HTTP/1.1 200 1073 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/tenant-mgt/images/services1.gif HTTP/1.1 200 608 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/admin/jsp/session-validate.jsp HTTP/1.1 200 3554 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.006
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/application/images/local-sp.png HTTP/1.1 200 576 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/idpmgt/images/list.gif HTTP/1.1 200 216 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/idpmgt/images/add.gif HTTP/1.1 200 407 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/tenant-mgt/images/services.gif HTTP/1.1 200 604 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/log-config/images/log.gif HTTP/1.1 200 596 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/idpmgt/images/resident-idp.png HTTP/1.1 200 576 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/email-mgt/images/i18nemail-template.png HTTP/1.1 200 602 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/userstore_config/images/list.gif HTTP/1.1 200 216 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/email-mgt/images/add_email.gif HTTP/1.1 200 407 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/keystoremgt/images/keystore.gif HTTP/1.1 200 604 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/keystoremgt/images/add.gif HTTP/1.1 200 407 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/email-mgt/images/edit_email.gif HTTP/1.1 200 1036 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/consent/images/consent.gif HTTP/1.1 200 1017 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/consent/images/add.png HTTP/1.1 200 639 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/keystoremgt/images/list.gif HTTP/1.1 200 216 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/oauth/images/oauth.gif HTTP/1.1 200 1025 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/consent/images/list.png HTTP/1.1 200 216 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/oauth/images/add.gif HTTP/1.1 200 407 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/eventstream/images/event-stream.png HTTP/1.1 200 688 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/event-flow/images/event-flow.png HTTP/1.1 200 865 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/eventpublisher/images/events.png HTTP/1.1 200 625 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/eventreceiver/images/event-receiver.png HTTP/1.1 200 799 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/oauth/images/list.gif HTTP/1.1 200 216 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/server-admin/system_status_ajaxprocessor.jsp HTTP/1.1 200 1240 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.006
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/eventpublisher/images/event-publisher.png HTTP/1.1 200 863 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/admin/images/down-arrow.gif HTTP/1.1 200 610 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/admin/images/leftRightSlider-dark.png HTTP/1.1 200 1421 https://localhost:9443/carbon/admin/css/global.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/resources/images/resources.gif HTTP/1.1 200 1028 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:32 -0300] GET /carbon/admin/images/table-header.gif HTTP/1.1 200 873 https://localhost:9443/carbon/admin/css/global.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:34 -0300] GET /carbon/userstore/add-user-role.jsp?region=region1&item=user_mgt_menu_add HTTP/1.1 200 4508 https://localhost:9443/carbon/admin/index.jsp?loginStatus=true Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.272
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:34 -0300] GET /carbon/userstore/extensions/js/vui.js HTTP/1.1 200 1044 https://localhost:9443/carbon/userstore/add-user-role.jsp?region=region1&item=user_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:34 -0300] GET /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 4370 https://localhost:9443/carbon/userstore/add-user-role.jsp?region=region1&item=user_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:34 -0300] GET /carbon/admin/jsp/registry_styles_ajaxprocessor.jsp HTTP/1.1 200 123 https://localhost:9443/carbon/userstore/add-user-role.jsp?region=region1&item=user_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:34 -0300] POST /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 52 https://localhost:9443/carbon/userstore/add-user-role.jsp?region=region1&item=user_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:34 -0300] GET /carbon/userstore/images/users.gif HTTP/1.1 200 1027 https://localhost:9443/carbon/userstore/add-user-role.jsp?region=region1&item=user_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:34 -0300] GET /carbon/user/images/bulk-import.gif HTTP/1.1 200 1016 https://localhost:9443/carbon/userstore/add-user-role.jsp?region=region1&item=user_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:34 -0300] GET /carbon/userstore/images/user-roles.gif HTTP/1.1 200 1048 https://localhost:9443/carbon/userstore/add-user-role.jsp?region=region1&item=user_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:37 -0300] GET /carbon/user/add-step1.jsp HTTP/1.1 200 5804 https://localhost:9443/carbon/userstore/add-user-role.jsp?region=region1&item=user_mgt_menu_add Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 1.000
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:37 -0300] GET /carbon/admin/jsp/registry_styles_ajaxprocessor.jsp HTTP/1.1 200 123 https://localhost:9443/carbon/user/add-step1.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.003
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:37 -0300] GET /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 4370 https://localhost:9443/carbon/user/add-step1.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:37 -0300] POST /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 52 https://localhost:9443/carbon/user/add-step1.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:37 -0300] GET /carbon/admin/images/buttonRow-bg.gif HTTP/1.1 200 130 https://localhost:9443/carbon/admin/css/global.css Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:40 -0300] GET /carbon/userstore/add-user-role.jsp HTTP/1.1 200 4499 https://localhost:9443/carbon/user/add-step1.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.010
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:40 -0300] GET /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 4370 https://localhost:9443/carbon/userstore/add-user-role.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.001
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:40 -0300] GET /carbon/admin/jsp/registry_styles_ajaxprocessor.jsp HTTP/1.1 200 123 https://localhost:9443/carbon/userstore/add-user-role.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.002
+0:0:0:0:0:0:0:1 - - [02/Oct/2026:18:31:40 -0300] POST /carbon/admin/js/csrfPrevention.js HTTP/1.1 200 52 https://localhost:9443/carbon/userstore/add-user-role.jsp Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 0.000
+127.0.0.1 - - [02/Oct/2026:18:31:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:32:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:18:32:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:33:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:33:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:34:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:34:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:35:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:35:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:36:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:36:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:18:37:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:37:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:38:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:38:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:39:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:39:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:40:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:40:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:18:41:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:18:41:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:42:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:42:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:43:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:43:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:44:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:44:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:45:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:45:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:46:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:46:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:47:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:47:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:48:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:48:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:49:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:49:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:50:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:50:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:51:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:51:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:52:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:52:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:53:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:18:53:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:54:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:54:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:55:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:55:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:56:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.007
+127.0.0.1 - - [02/Oct/2026:18:56:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:57:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:57:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:18:58:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:18:58:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:59:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:18:59:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:00:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.007
+127.0.0.1 - - [02/Oct/2026:19:00:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:01:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:01:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:02:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:02:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:03:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:03:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:04:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:04:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:05:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:05:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:06:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:06:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:07:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:07:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:35 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.495
+127.0.0.1 - - [02/Oct/2026:19:49:35 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.042
+127.0.0.1 - - [02/Oct/2026:19:49:35 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.026
+127.0.0.1 - - [02/Oct/2026:19:49:35 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.042
+127.0.0.1 - - [02/Oct/2026:19:49:35 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.042
+127.0.0.1 - - [02/Oct/2026:19:49:35 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.029
+127.0.0.1 - - [02/Oct/2026:19:49:35 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.030
+127.0.0.1 - - [02/Oct/2026:19:49:35 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.040
+127.0.0.1 - - [02/Oct/2026:19:49:36 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.034
+127.0.0.1 - - [02/Oct/2026:19:49:36 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.030
+127.0.0.1 - - [02/Oct/2026:19:49:36 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.034
+127.0.0.1 - - [02/Oct/2026:19:49:36 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.027
+127.0.0.1 - - [02/Oct/2026:19:49:36 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.034
+127.0.0.1 - - [02/Oct/2026:19:49:36 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.037
+127.0.0.1 - - [02/Oct/2026:19:49:36 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.034
+127.0.0.1 - - [02/Oct/2026:19:49:36 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.038
+127.0.0.1 - - [02/Oct/2026:19:49:36 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.071
+127.0.0.1 - - [02/Oct/2026:19:49:36 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.048
+127.0.0.1 - - [02/Oct/2026:19:49:36 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.038
+127.0.0.1 - - [02/Oct/2026:19:49:37 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.061
+127.0.0.1 - - [02/Oct/2026:19:49:37 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.048
+127.0.0.1 - - [02/Oct/2026:19:49:37 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.040
+127.0.0.1 - - [02/Oct/2026:19:49:37 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.041
+127.0.0.1 - - [02/Oct/2026:19:49:37 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.043
+127.0.0.1 - - [02/Oct/2026:19:49:37 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.046
+127.0.0.1 - - [02/Oct/2026:19:49:37 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.040
+127.0.0.1 - - [02/Oct/2026:19:49:37 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.056
+127.0.0.1 - - [02/Oct/2026:19:49:37 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.047
+127.0.0.1 - - [02/Oct/2026:19:49:37 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.038
+127.0.0.1 - - [02/Oct/2026:19:49:38 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.038
+127.0.0.1 - - [02/Oct/2026:19:49:38 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.049
+127.0.0.1 - - [02/Oct/2026:19:49:38 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.040
+127.0.0.1 - - [02/Oct/2026:19:49:38 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.036
+127.0.0.1 - - [02/Oct/2026:19:49:38 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.017
+127.0.0.1 - - [02/Oct/2026:19:49:38 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.030
+127.0.0.1 - - [02/Oct/2026:19:49:38 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.035
+127.0.0.1 - - [02/Oct/2026:19:49:38 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.036
+127.0.0.1 - - [02/Oct/2026:19:49:38 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.032
+127.0.0.1 - - [02/Oct/2026:19:49:38 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.032
+127.0.0.1 - - [02/Oct/2026:19:49:38 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.031
+127.0.0.1 - - [02/Oct/2026:19:49:38 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.041
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.028
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.032
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.029
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.037
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.022
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.025
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.009
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.025
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.028
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.027
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.018
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.028
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.019
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.031
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.037
+127.0.0.1 - - [02/Oct/2026:19:49:39 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.010
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.017
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.007
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:19:49:40 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:19:49:54 -0300] GET /internal/data/v1/endpoint-certificates HTTP/1.1 200 2 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:49:54 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:49:54 -0300] GET /internal/data/v1/runtime-artifacts?gatewayLabel=RGVmYXVsdA&type=Synapse HTTP/1.1 200 5669 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.291
+127.0.0.1 - - [02/Oct/2026:19:49:55 -0300] GET /internal/data/v1/application-key-mappings HTTP/1.1 200 39 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:55 -0300] GET /internal/data/v1/application-policies HTTP/1.1 200 290 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:55 -0300] GET /internal/data/v1/api-policies HTTP/1.1 200 328 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:55 -0300] GET /internal/data/v1/applications HTTP/1.1 200 39 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:55 -0300] GET /internal/data/v1/subscriptions HTTP/1.1 200 39 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:55 -0300] GET /internal/data/v1/subscription-policies HTTP/1.1 200 621 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:49:55 -0300] GET /internal/data/v1/apis?gatewayLabel=Default HTTP/1.1 200 689 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:49:55 -0300] GET /internal/data/v1/scopes HTTP/1.1 200 39 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:19:50:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:50:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:51:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:19:51:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:52:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:52:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:53:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:19:53:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:54:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:54:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:19:55:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:55:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:19:56:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:56:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:57:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:57:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:58:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:58:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:19:59:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:19:59:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:00:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:00:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.006
+127.0.0.1 - - [02/Oct/2026:20:01:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:01:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:02:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:02:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:03:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:03:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:04:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:04:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:05:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:05:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.007
+127.0.0.1 - - [02/Oct/2026:20:06:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:20:06:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:20:07:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:07:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:08:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:08:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:09:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:20:09:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:10:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:10:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:11:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:11:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:12:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:12:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:13:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:13:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:14:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:14:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:15:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:15:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:16:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:16:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:17:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:17:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:18:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:18:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:19:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:19:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:20:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:20:20:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:20:21:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.007
+127.0.0.1 - - [02/Oct/2026:20:21:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:20:22:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:22:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:23:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.019
+127.0.0.1 - - [02/Oct/2026:20:23:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:24:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:20:24:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:25:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:25:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:26:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:26:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:27:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:27:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:28:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:28:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:20:29:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:29:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:30:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:30:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:31:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:31:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:32:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:32:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:33:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:33:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:34:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:34:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:35:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:35:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:36:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.005
+127.0.0.1 - - [02/Oct/2026:20:36:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.007
+127.0.0.1 - - [02/Oct/2026:20:37:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:37:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.003
+127.0.0.1 - - [02/Oct/2026:20:38:12 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:20:38:42 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.004
+127.0.0.1 - - [02/Oct/2026:22:53:43 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.330
+127.0.0.1 - - [02/Oct/2026:22:53:43 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.037
+127.0.0.1 - - [02/Oct/2026:22:53:43 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.036
+127.0.0.1 - - [02/Oct/2026:22:53:43 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.060
+127.0.0.1 - - [02/Oct/2026:22:53:44 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.018
+127.0.0.1 - - [02/Oct/2026:22:53:44 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.028
+127.0.0.1 - - [02/Oct/2026:22:53:44 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.040
+127.0.0.1 - - [02/Oct/2026:22:53:44 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.023
+127.0.0.1 - - [02/Oct/2026:22:53:44 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.053
+127.0.0.1 - - [02/Oct/2026:22:53:44 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.056
+127.0.0.1 - - [02/Oct/2026:22:53:44 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.041
+127.0.0.1 - - [02/Oct/2026:22:53:44 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.037
+127.0.0.1 - - [02/Oct/2026:22:53:44 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.034
+127.0.0.1 - - [02/Oct/2026:22:53:44 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.039
+127.0.0.1 - - [02/Oct/2026:22:53:44 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.031
+127.0.0.1 - - [02/Oct/2026:22:53:45 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.060
+127.0.0.1 - - [02/Oct/2026:22:53:45 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.028
+127.0.0.1 - - [02/Oct/2026:22:53:45 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.037
+127.0.0.1 - - [02/Oct/2026:22:53:45 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.032
+127.0.0.1 - - [02/Oct/2026:22:53:45 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.076
+127.0.0.1 - - [02/Oct/2026:22:53:45 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.037
+127.0.0.1 - - [02/Oct/2026:22:53:45 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.035
+127.0.0.1 - - [02/Oct/2026:22:53:45 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.032
+127.0.0.1 - - [02/Oct/2026:22:53:45 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.031
+127.0.0.1 - - [02/Oct/2026:22:53:45 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.031
+127.0.0.1 - - [02/Oct/2026:22:53:45 -0300] POST /internal/data/v1/notify-gateway HTTP/1.1 200 76 - Apache-HttpClient/4.5.13 (Java/17.0.15) 0.037

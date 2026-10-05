@@ -1,0 +1,50 @@
+[2026-10-02 17:02:12,913] [-1]  INFO {com.atomikos.persistence.imp.FileLogStream} - Starting read of logfile C:\Users\gabri\Desktop\ENTREV~1\Dm\WSO2EI~1.0\repository\data\tmlog2.log
+[2026-10-02 17:02:13,230] [-1]  INFO {com.atomikos.persistence.imp.FileLogStream} - Done read of logfile
+[2026-10-02 17:02:13,231] [-1]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: C:\Users\gabri\Desktop\ENTREV~1\Dm\WSO2EI~1.0\repository\data\tmlog2.log
+[2026-10-02 17:02:13,235] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2026-10-02 17:02:13,236] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2026-10-02 17:02:13,236] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2026-10-02 17:02:13,236] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2026-10-02 17:02:13,236] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2026-10-02 17:02:13,236] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2026-10-02 17:02:13,236] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2026-10-02 17:02:13,236] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = repository/data
+[2026-10-02 17:02:13,236] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2026-10-02 17:02:13,236] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = INFO
+[2026-10-02 17:02:13,236] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2026-10-02 17:02:13,236] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2026-10-02 17:02:13,237] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = repository/logs
+[2026-10-02 17:02:13,237] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2026-10-02 17:02:13,237] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = 1073741824
+[2026-10-02 17:02:13,237] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 8000000
+[2026-10-02 17:02:13,237] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 192.168.1.63.tm
+[2026-10-02 17:02:13,237] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2026-10-02 17:02:13,237] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2026-10-02 17:02:13,238] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2026-10-02 17:02:13,238] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+[2026-10-02 17:02:13,238] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 5000000
+[2026-10-02 21:10:31,675] [-1]  INFO {com.atomikos.persistence.imp.FileLogStream} - Starting read of logfile /home/wso2carbon/wso2ei-6.6.0/repository/data/tmlog3.log
+[2026-10-02 21:10:32,621] [-1]  INFO {com.atomikos.persistence.imp.FileLogStream} - Done read of logfile
+[2026-10-02 21:10:32,622] [-1]  INFO {com.atomikos.persistence.imp.FileLogStream} - Logfile closed: /home/wso2carbon/wso2ei-6.6.0/repository/data/tmlog3.log
+[2026-10-02 21:10:32,631] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING core version: 3.8.0
+[2026-10-02 21:10:32,632] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_name = tm.out
+[2026-10-02 21:10:32,632] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_count = 1
+[2026-10-02 21:10:32,632] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.automatic_resource_registration = true
+[2026-10-02 21:10:32,632] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.client_demarcation = false
+[2026-10-02 21:10:32,633] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.threaded_2pc = false
+[2026-10-02 21:10:32,633] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.serial_jta_transactions = true
+[2026-10-02 21:10:32,633] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_dir = repository/data
+[2026-10-02 21:10:32,633] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_actives = 50
+[2026-10-02 21:10:32,633] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_log_level = INFO
+[2026-10-02 21:10:32,634] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.checkpoint_interval = 500
+[2026-10-02 21:10:32,634] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.enable_logging = true
+[2026-10-02 21:10:32,634] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.output_dir = repository/logs
+[2026-10-02 21:10:32,635] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.log_base_name = tmlog
+[2026-10-02 21:10:32,635] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.console_file_limit = 1073741824
+[2026-10-02 21:10:32,635] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.max_timeout = 8000000
+[2026-10-02 21:10:32,635] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.tm_unique_name = 172.19.0.6.tm
+[2026-10-02 21:10:32,635] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.factory.initial = com.sun.jndi.rmi.registry.RegistryContextFactory
+[2026-10-02 21:10:32,636] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING java.naming.provider.url = rmi://localhost:1099
+[2026-10-02 21:10:32,636] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.service = com.atomikos.icatch.standalone.UserTransactionServiceFactory
+[2026-10-02 21:10:32,636] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.force_shutdown_on_vm_exit = true
+[2026-10-02 21:10:32,636] [-1]  INFO {com.atomikos.icatch.config.imp.AbstractUserTransactionService} - USING com.atomikos.icatch.default_jta_timeout = 5000000
