@@ -23,36 +23,12 @@ A arquitetura foi projetada para resolver problemas complexos do ecossistema cor
 
 ## 📐 Arquitetura do Sistema
 
-```
-                             ┌─────────────────────────────────────────────────────────────────────────────────┐
-                             │                              DOCKER ENVIRONMENT                                 │
-                             │                                                                                 │
-                             │  ┌───────────────────────┐       ┌───────────────────────────────────────────┐  │
-                             │  │      WSO2 APIM        │       │             SPRING MICROSSERVIÇOS          │  │
-                             │  │  ┌─────────────────┐  │       │  ┌─────────────────────────────────────┐  │  │
-                             │  │  │ API Gateway     │──┼───────┼─>│ bilhetador-api (:8081)               │  │  │
-                             │  │  └─────────────────┘  │       │  └─────────────────────────────────────┘  │  │
-                             │  │  ┌─────────────────┐  │       │  ┌─────────────────────────────────────┐  │  │
-┌─────────┐   OAuth2 / HTTPS │  │  │ Multi-tenancy   │  │       │  │ rh-consulta-api (:8082)            │  │  │
-│ Usuário │─────────────────┼─>│  └────────┬────────┘  │       │  └─────────────────────────────────────┘  │  │
-└─────────┘                  │  └──────────┼───────────┘       │  ┌─────────────────────────────────────┐  │  │
-                             │             │                   │  │ exemplo-cache-data (:8084)           │  │  │
-                             │             │ LDAP Sync         │  └─────────────────────────────────────┘  │  │
-                             │             ▼                   │                                           │  │
-                             │  ┌───────────────────────┐       │  ┌─────────────────────────────────────┐  │  │
-                             │  │       OpenLDAP        │       │  │ relatorio-legacy-api (:8083)        │  │  │
-                             │  └───────────────────────┘       │  └──────────────────┬──────────────────┘  │  │
-                             │                                  │                     │ XML / Payload       │  │
-                             │  ┌───────────────────────┐       │                     ▼                     │  │
-                             │  │   PostgreSQL DB       │       │  ┌─────────────────────────────────────┐  │  │
-                             │  └───────────────────────┘       │  │ WSO2 EI (ESB)                       │  │  │
-                             │                                  │  │ Transformation & Mediation          │  │  │
-                             │                                  │  └─────────────────────────────────────┘  │  │
-                             │                                  └───────────────────────────────────────────┘  │
-                             └─────────────────────────────────────────────────────────────────────────────────┘
-```
 
-> 🔗 **Diagrama Interativo (Diagrams.net):** [Acessar Diagrama de Arquitetura Completo](https://app.diagrams.net/#G10t-q_H9FrsYrQRfSAWOdllt8LOwfnXkm#%7B%22pageId%22%3A%22eqw7GdaxUCp-LQWplP11%22%7D)
+<img src="https://github.com/kyosho-dev/outros/blob/main/Arquitetura%20Corporativa%20de%20Integra%C3%A7%C3%A3o%20e%20Governan%C3%A7a%20de%20APIs.png" alt="Antes" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+
+
+
+
 
 ---
 
@@ -167,9 +143,9 @@ GET http://localhost:8084/v1/time/cached
    
 ---
 
-## 📝 Projetos Relacionados
+## 📝 Projeto Relacionado
 * [Repositório de Design de Layouts & Mapeamentos EI](https://github.com/kyosho-dev/Desingn-de-Layouts)
-* [Desenho Arquitetural no Diagrams.net](https://app.diagrams.net/#G10t-q_H9FrsYrQRfSAWOdllt8LOwfnXkm#%7B%22pageId%22%3A%22eqw7GdaxUCp-LQWplP11%22%7D)
+
 
 ---
-*Desenvolvido por Gabriel Simões — Foco em Arquitetura de Integração, Resiliência de Sistemas e Engenharia de Software.*
+
