@@ -74,6 +74,36 @@ A camada de aplicação é composta por microsserviços autônomos e focados em 
 | **WSO2 APIM** | Developer Portal | `https://localhost:9443/devportal` |
 | **WSO2 EI** | Management Console | `https://192.168.1.235:9445/carbon/admin/login.jsp` |
 
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <b>◆ Carbon Admin</b><br/><br/>
+        <img src="https://github.com/kyosho-dev/outros/blob/main/afasfwegewrrg.png" alt="Antes" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      </td>
+      <td align="center" width="50%">
+        <b>◆ Publisher Portal</b><br/><br/>
+        <img src="https://github.com/kyosho-dev/outros/blob/main/afeaesffwf.png" alt="Depois" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <b>◆ APIs</b><br/><br/>
+        <img src="https://github.com/kyosho-dev/outros/blob/main/fessefesgf.png" alt="Antes" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      </td>
+      <td align="center" width="50%">
+        <b>◆ WSO2 EI</b><br/><br/>
+        <img src="https://github.com/kyosho-dev/outros/blob/main/ghrthererrur.png" alt="Depois" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
 ### Endpoints da Aplicação Spring Boot
 
 ```bash
